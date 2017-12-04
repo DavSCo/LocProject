@@ -1,5 +1,5 @@
 <?php
-include_once ('Layout.php');
+include_once('Layout.php');
 ?>
 <section class="features" id="features">
     <div class="container">

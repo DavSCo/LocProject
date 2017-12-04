@@ -5,7 +5,7 @@
  ini_set('display_errors',1);
  ini_set('error_reporting',E_ALL);
 
- require ('includes/init.php');
+ require('includes/init.php');
 
   if (!empty($_POST)){
       
@@ -38,6 +38,8 @@
         echo 'Invalid password.'; 
         header('location:index.php');
        
-    };}
+    };
+  }
+
         
 ?>

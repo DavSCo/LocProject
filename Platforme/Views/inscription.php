@@ -1,4 +1,4 @@
-<?php 
+<?php
 require('includes/init.php')
 ?>
 <!DOCTYPE html>

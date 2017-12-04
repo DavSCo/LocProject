@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a78d069c-744b-4f7a-a584-53231b118724" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Platforme/Views/traitement-inscription.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Platforme/traitement-inscription.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/Connexion.php" afterPath="$PROJECT_DIR$/Platforme/Views/Connexion.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/Layout.php" afterPath="$PROJECT_DIR$/Platforme/Views/Layout.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/css/connexion.css" afterPath="$PROJECT_DIR$/Platforme/Views/css/connexion.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/css/new-age.css" afterPath="$PROJECT_DIR$/Platforme/Views/css/new-age.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/css/new-age.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/css/new-age.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/css/shop-homepage.css" afterPath="$PROJECT_DIR$/Platforme/Views/css/shop-homepage.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/css/shop-item.css" afterPath="$PROJECT_DIR$/Platforme/Views/css/shop-item.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/edition/gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/edition/gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/edition/rose.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/edition/rose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/sport/black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/sport/black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/sport/blue.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/sport/blue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/sport/green.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/sport/green.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/sport/red.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/sport/red.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/sport/white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/sport/white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/watch/metal.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/watch/metal.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/apple_watch/watch/steel.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/apple_watch/watch/steel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/device-mockups.css" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/device-mockups.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/device-mockups.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/device-mockups.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/device-mockups2.css" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/device-mockups2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/device-mockups2.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/device-mockups2.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s3/s3_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s3/s3_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s3/s3_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s3/s3_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s3/s3_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s3/s3_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s3/s3_port_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s3/s3_port_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s5/galaxy_s5_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s5/galaxy_s5_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s5/galaxy_s5_land_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s5/galaxy_s5_land_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s5/galaxy_s5_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s5/galaxy_s5_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s5/galaxy_s5_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s5/galaxy_s5_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s5/galaxy_s5_port_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s5/galaxy_s5_port_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_s5/galaxy_s5_port_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_s5/galaxy_s5_port_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_tab4/galaxy_tab4_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_tab4/galaxy_tab4_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_tab4/galaxy_tab4_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_tab4/galaxy_tab4_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_tab4_small/galaxy_tab4_black_small.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_tab4_small/galaxy_tab4_black_small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/galaxy_tab4_small/galaxy_tab4_white_small.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/galaxy_tab4_small/galaxy_tab4_white_small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/imac/imac.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/imac/imac.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad/ipad_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad/ipad_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad/ipad_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad/ipad_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad/ipad_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad/ipad_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad/ipad_port_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad/ipad_port_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air/ipad_air_gray_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air/ipad_air_gray_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air/ipad_air_gray_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air/ipad_air_gray_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air/ipad_air_silver_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air/ipad_air_silver_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air/ipad_air_silver_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air/ipad_air_silver_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air_2/ipad_air_2_gold_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air_2/ipad_air_2_gold_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air_2/ipad_air_2_gold_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air_2/ipad_air_2_gold_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air_2/ipad_air_2_gray_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air_2/ipad_air_2_gray_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air_2/ipad_air_2_gray_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air_2/ipad_air_2_gray_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air_2/ipad_air_2_silver_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air_2/ipad_air_2_silver_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_air_2/ipad_air_2_silver_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_air_2/ipad_air_2_silver_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_pro/ipad_pro_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_pro/ipad_pro_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_pro/ipad_pro_land_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_pro/ipad_pro_land_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_pro/ipad_pro_land_silver.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_pro/ipad_pro_land_silver.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_pro/ipad_pro_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_pro/ipad_pro_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_pro/ipad_pro_port_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_pro/ipad_pro_port_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/ipad_pro/ipad_pro_port_silver.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/ipad_pro/ipad_pro_port_silver.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone5/iphone5_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone5/iphone5_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone5/iphone5_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone5/iphone5_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone5/iphone5_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone5/iphone5_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone5/iphone5_port_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone5/iphone5_port_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6/iphone_6_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6/iphone_6_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6/iphone_6_land_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6/iphone_6_land_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6/iphone_6_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6/iphone_6_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6/iphone_6_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6/iphone_6_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6/iphone_6_port_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6/iphone_6_port_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6/iphone_6_port_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6/iphone_6_port_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6_plus/iphone_6_plus_black_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6_plus/iphone_6_plus_black_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6_plus/iphone_6_plus_black_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6_plus/iphone_6_plus_black_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6_plus/iphone_6_plus_gold_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6_plus/iphone_6_plus_gold_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6_plus/iphone_6_plus_gold_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6_plus/iphone_6_plus_gold_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6_plus/iphone_6_plus_white_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6_plus/iphone_6_plus_white_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_6_plus/iphone_6_plus_white_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_6_plus/iphone_6_plus_white_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_land_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_land_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_land_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_land_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_land_rose.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_land_rose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_land_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_land_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_port_black.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_port_black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_port_gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_port_gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_port_rose.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_port_rose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/iphone_se/iphone_se_port_white.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/iphone_se/iphone_se_port_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/lumia920/lumia920_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/lumia920/lumia920_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/lumia920/lumia920_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/lumia920/lumia920_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/lumia_930/lumia_930_dark_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/lumia_930/lumia_930_dark_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/lumia_930/lumia_930_dark_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/lumia_930/lumia_930_dark_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/lumia_930/lumia_930_light_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/lumia_930/lumia_930_light_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/lumia_930/lumia_930_light_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/lumia_930/lumia_930_light_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/macbook/macbook.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/macbook/macbook.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/macbook_2015/gold.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/macbook_2015/gold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/macbook_2015/grey.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/macbook_2015/grey.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/macbook_2015/silver.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/macbook_2015/silver.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/nexus7/nexus7_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/nexus7/nexus7_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/nexus7/nexus7_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/nexus7/nexus7_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/nexus_6/nexus_6_land.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/nexus_6/nexus_6_land.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/nexus_6/nexus_6_port.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/nexus_6/nexus_6_port.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/samsung_tv/samsung_tv.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/samsung_tv/samsung_tv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/device-mockups/surface/surface.png" afterPath="$PROJECT_DIR$/Platforme/Views/device-mockups/surface/surface.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/gulpfile.js" afterPath="$PROJECT_DIR$/Platforme/Views/gulpfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/img/app-store-badge.svg" afterPath="$PROJECT_DIR$/Platforme/Views/img/app-store-badge.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/img/bg-cta.jpg" afterPath="$PROJECT_DIR$/Platforme/Views/img/bg-cta.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/img/bg-pattern.png" afterPath="$PROJECT_DIR$/Platforme/Views/img/bg-pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/img/demo-screen-1.jpg" afterPath="$PROJECT_DIR$/Platforme/Views/img/demo-screen-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/img/google-play-badge.svg" afterPath="$PROJECT_DIR$/Platforme/Views/img/google-play-badge.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/inscription.php" afterPath="$PROJECT_DIR$/Platforme/Views/inscription.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/js/new-age.js" afterPath="$PROJECT_DIR$/Platforme/Views/js/new-age.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/js/new-age.min.js" afterPath="$PROJECT_DIR$/Platforme/Views/js/new-age.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/listLoc.php" afterPath="$PROJECT_DIR$/Platforme/Views/listLoc.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/product.html" afterPath="$PROJECT_DIR$/Platforme/Views/product.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/traitement-connexion.php" afterPath="$PROJECT_DIR$/Platforme/Views/traitement-connexion.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/js/bootstrap.bundle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/animated.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/fixed-width.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/font-awesome.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/larger.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/path.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/screen-reader.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/stacked.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/jquery-easing/jquery.easing.compatibility.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/jquery-easing/jquery.easing.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/jquery-easing/jquery.easing.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/jquery-easing/jquery.easing.min.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/jquery-easing/jquery.easing.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/jquery/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/jquery/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/css/simple-line-icons.css" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/css/simple-line-icons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/less/simple-line-icons.less" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/less/simple-line-icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Platforme/vendor/simple-line-icons/scss/simple-line-icons.scss" afterPath="$PROJECT_DIR$/Platforme/Views/vendor/simple-line-icons/scss/simple-line-icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bdd.sql" afterPath="$PROJECT_DIR$/Platforme/Models/bdd.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/includes/init.php" afterPath="$PROJECT_DIR$/Platforme/includes/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/index.php" afterPath="$PROJECT_DIR$/Platforme/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="traitement-inscription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-inscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1512379167000" expanded="true" signature="548:694" ph="INSERT INTO users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSQL.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Models/UserSQL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <marker date="1512380939000" expanded="true" signature="542:688" ph="INSERT INTO users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbConn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Models/dbConn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traitement-connexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-connexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+              <folding>
+                <marker date="1512380161000" expanded="true" signature="347:410" ph="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Views/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3270">
+              <caret line="218" column="7" lean-forward="true" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Views/Layout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signIn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Views/signIn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Controllers/homeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Platforme/includes/init.php" />
+        <option value="$PROJECT_DIR$/Platforme/traitement-inscription.php" />
+        <option value="$PROJECT_DIR$/Platforme/Views/traitement-connexion.php" />
+        <option value="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" />
+        <option value="$PROJECT_DIR$/Platforme/Models/dbConn.php" />
+        <option value="$PROJECT_DIR$/Platforme/Views/home.php" />
+        <option value="$PROJECT_DIR$/Platforme/Controllers/homeController.php" />
+        <option value="$PROJECT_DIR$/Platforme/index.php" />
+        <option value="$PROJECT_DIR$/Platforme/Views/Layout.php" />
+        <option value="$PROJECT_DIR$/Platforme/Views/signIn.php" />
+        <option value="$PROJECT_DIR$/Platforme/Models/UserSQL.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Platforme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Platforme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Platforme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocProject" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Platforme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Platforme" />
+      <recent name="$PROJECT_DIR$/Platforme/Models" />
+      <recent name="$PROJECT_DIR$/Platforme/Views" />
+      <recent name="$PROJECT_DIR$/Platforme/Controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a78d069c-744b-4f7a-a584-53231b118724" name="Default" comment="" />
+      <created>1512375974963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512375974963</updated>
+      <workItem from="1512375976204" duration="3794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3794000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18597998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/css/new-age.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="47" column="7" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/includes/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1512379167000" expanded="true" signature="548:694" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3270">
+          <caret line="218" column="7" lean-forward="true" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Controllers/homeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/Layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <marker date="1512380161000" expanded="true" signature="347:410" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Models/UserSQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <marker date="1512380939000" expanded="true" signature="542:688" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/signIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Models/dbConn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

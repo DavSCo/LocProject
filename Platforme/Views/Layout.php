@@ -43,7 +43,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="inscription.php">Inscription</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=signin">Inscription</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="Connexion.php">Connexion</a>
