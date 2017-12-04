@@ -25,9 +25,6 @@ include_once ('Layout.php');
                 </div>
               </div>-->
             </div>
-          </div>
-        </div>
-      </div>
     </header>
 
     <section class="download bg-primary text-center" id="download">
@@ -37,7 +34,7 @@ include_once ('Layout.php');
             <h2 class="section-heading">Decouvrez le nouveau monde de la location courte durée</h2>
             <p>FreeLancer, Start Up, Auto-entrepreneur , inscrivez vous vite ! Et louez ! </p>
             <div class="badges">
-              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger">Inscription</a>
+              <a href="inscription.php" class="btn btn-outline btn-xl js-scroll-trigger">Inscription</a>
             </div>
           </div>
         </div>
