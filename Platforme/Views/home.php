@@ -205,14 +205,14 @@ include_once('Layout.php');
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="Views/vendor/jquery/jquery.min.js"></script>
+<script src="Views/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="Views/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="js/new-age.min.js"></script>
+<script src="Views/js/new-age.min.js"></script>
 
 </body>
 
