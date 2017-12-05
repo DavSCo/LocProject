@@ -9,12 +9,12 @@ if (!empty($_POST)) {
     $succes = "<p class='erreur'>Inscription terminée</p>";
     header('Location:index.php');
 
-    if ($passwordcrypt == $res['password'])
+    if ($password== $inscription['password'])
     {
         $_SESSION['user'] =
             [
-                'mail' => $mail,
-                'id'=> $res['id']
+                'mail' => $_POST['mail'],
+                'id'=> $inscription['id']
             ];
 
         echo 'Password is valid!';

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78d069c-744b-4f7a-a584-53231b118724" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Views/Layout.php" afterPath="$PROJECT_DIR$/Platforme/Views/Layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Views/home.php" afterPath="$PROJECT_DIR$/Platforme/Views/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/index.php" afterPath="$PROJECT_DIR$/Platforme/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" afterPath="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,46 +17,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="traitement-inscription.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-inscription.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <marker date="1512379167000" expanded="true" signature="548:694" ph="INSERT INTO users... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbConn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Platforme/Models/dbConn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traitement-connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-connexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-              <folding>
-                <marker date="1512380161000" expanded="true" signature="347:410" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addLocal.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addLocal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Platforme/Views/addLocal.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSQL.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Platforme/Models/UserSQL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <marker date="1512380939000" expanded="true" signature="542:688" ph="INSERT INTO users... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +125,6 @@
         <option value="$PROJECT_DIR$/Platforme/includes/init.php" />
         <option value="$PROJECT_DIR$/Platforme/traitement-inscription.php" />
         <option value="$PROJECT_DIR$/Platforme/Views/traitement-connexion.php" />
-        <option value="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" />
         <option value="$PROJECT_DIR$/Platforme/Models/dbConn.php" />
         <option value="$PROJECT_DIR$/Platforme/Controllers/homeController.php" />
         <option value="$PROJECT_DIR$/Platforme/Views/signIn.php" />
@@ -150,6 +135,7 @@
         <option value="$PROJECT_DIR$/Platforme/Views/Layout.php" />
         <option value="$PROJECT_DIR$/Platforme/Views/addLocal.php" />
         <option value="$PROJECT_DIR$/Platforme/Views/home.php" />
+        <option value="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" />
       </list>
     </option>
   </component>
@@ -346,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512375974963</updated>
-      <workItem from="1512375976204" duration="5656000" />
+      <workItem from="1512375976204" duration="6127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5656000" />
+    <option name="totallyTimeSpent" value="6127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -440,24 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Platforme/Models/UserSQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <marker date="1512380939000" expanded="true" signature="542:688" ph="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Platforme/Views/css/semantic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3606">
@@ -497,16 +465,6 @@
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1512379167000" expanded="true" signature="548:694" ph="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,10 +508,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Models/UserSQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <marker date="1512380939000" expanded="true" signature="542:688" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/traitement-inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <marker date="1512379167000" expanded="true" signature="548:694" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Platforme/Views/addLocal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
