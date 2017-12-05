@@ -27,6 +27,7 @@
     <!-- Custom styles for this template -->
     <link href="Views/css/new-age.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
+    <link rel="stylesheet" href="Views/css/connexion.css">
 
 
 </head>

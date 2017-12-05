@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>inscription</title>
-    <link rel="stylesheet" href="Views/css/connexion.css">
-
-</head>
-<body>
-
+<?php require_once ('Views/Layout.php')?>
 
 
 <div class="login-page">
@@ -42,4 +33,5 @@
     </div>
 </div>
 </body>
-</html>
+
+<?php require_once('Views/footer.php'); ?>
