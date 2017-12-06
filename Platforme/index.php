@@ -14,3 +14,6 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'admin_user') {
     require_once('Controllers/updateController.php');
 }
+
+elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
+    require_once('Controllers/deconnectionController.php');}
