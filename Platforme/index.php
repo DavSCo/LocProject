@@ -5,8 +5,12 @@ require_once('Models/UserSQL.php');
 
 if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/homeController.php');
-} else if (isset($_GET['p']) AND $_GET['p'] === 'signin') {
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'signin') {
     require_once('Controllers/SignInController.php');
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'connection') {
+    require_once('Controllers/connectionController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'admin_user') {
+    require_once('Controllers/updateController.php');
 }

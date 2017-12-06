@@ -27,7 +27,7 @@
     <!-- Custom styles for this template -->
     <link href="Views/css/new-age.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
-    <link rel="stylesheet" href="Views/css/connexion.css">
+    <link rel="stylesheet" href="Views/css/connection.css">
 
 
 </head>
@@ -49,13 +49,16 @@
                     <a class="nav-link js-scroll-trigger" href="index.php?p=signin">Inscription</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="Connexion.php">Connexion</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=connection">Connexion</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#location">Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="">deconnection</a>
                 </li>
             </ul>
         </div>

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Connexion</title>
-    <link rel="stylesheet" href="css/connexion.css">
+    <link rel="stylesheet" href="Views/css/connection.css">
 </head>
 <body>
    
    <div class="form-wrapper">
   <h1>Login</h1>
-  <form action="traitement-connexion.php" method="post">
+  <form  method="post">
     <div class="form-item">
      
       <label for="email"></label>
