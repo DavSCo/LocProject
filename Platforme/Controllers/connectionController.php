@@ -11,8 +11,6 @@ if (!empty($_POST)) {
 
         $_SESSION['connected'] = true;
         $_SESSION['id'] = $compte[0]['id'];
-        $_SESSION['mail'] = $compte[0]['mail'];
-
 
          header('Location: index.php');
 

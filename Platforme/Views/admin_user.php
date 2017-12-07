@@ -10,7 +10,6 @@
 </head>
 <body>
 <div class="admin-panel clearfix">
-   <h1><?=$updateUsers[0]['name'] ?></h1>
     <div class="slidebar">
         <div class="logo">
             <a href=""></a>
@@ -18,7 +17,7 @@
         <ul>
             <li><a href="#location" id="targeted">Locations</a></li>
             <li><a href="#update">Update</a></li>
-            <li><a href="#delete">Delete</a></li>
+            <li><a href="#media">Delete</a></li>
 
         </ul>
     </div>
@@ -126,17 +125,12 @@
 
             <div class="update" id="update">
                 <form method="post">
-                    <input type="text" name="name" value="<?= $updateUsers[0]['name'] ?>" placeholder="name">
-                    <input type="text" name="lastName" value="<?= $updateUsers[0]['lastName'] ?>" placeholder="lastName">
-                    <input type="email" name="mail"  value="<?= $updateUsers[0]['mail'] ?>" placeholder="email">
-                    <input type="password" name="password" value="<?= $updateUsers[0]['password'] ?>" placeholder="password">
+                    <input type="text" name="name" placeholder="name">
+                    <input type="text" name="lastName" placeholder="lastName">
+                    <input type="email" name="mail" placeholder="email">
+                    <input type="password" name="password" placeholder="password">
                     <input type="submit" value="Modifier">
                 </form>
-            </div>
-
-
-            <div class="delete" id="delete">
-                    <a href="index.php?p=delete_user&id=<?=$_SESSION['id']?>">Confirmer</a>
             </div>
         </div>
     </div>

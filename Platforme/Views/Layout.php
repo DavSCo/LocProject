@@ -58,7 +58,7 @@
                     <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
+                    <a class="nav-link js-scroll-trigger" href="">deconnection</a>
                 </li>
             </ul>
         </div>

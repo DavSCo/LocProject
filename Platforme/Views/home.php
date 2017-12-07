@@ -23,7 +23,7 @@ include_once('Layout.php');
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </header>
 
