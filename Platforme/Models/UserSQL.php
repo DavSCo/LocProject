@@ -40,53 +40,67 @@ class UserSQL
 
         global $bdd;
         $mail = $_POST['mail'];
-        $password = $_POST['password'];
         $password = crypt($_POST['password'], '$2a$07$302838711915bef2db65cc$');
-
         $connection = $bdd->prepare("SELECT * FROM users WHERE mail = :mail AND password = :password");
-
         $connection->bindParam(":mail", $mail, PDO::PARAM_STR);
-
         $connection->bindParam(":password", $password, PDO::PARAM_STR);
-
         $connection->execute();
-
         $compte = $connection->fetchAll();
 
         return $compte;
     }
 
-    public function updateCompte()
+    public function updateCompte($name, $lastName,$mail,$password,$id)
     {
         global $bdd;
 
 
-        $name = $_POST['name'];
-        $lastName = $_POST['lastName'];
-        $mail = $_POST['mail'];
-        $password = crypt($_POST['password'], '$2a$07$302838711915bef2db65cc$');
+        $password = crypt($password, '$2a$07$302838711915bef2db65cc$');
+        $update=$bdd->prepare("UPDATE users SET  name = :name, lastName= :lastName , mail = :mail, password = :password WHERE id=:id");
 
-
-        $update=$bdd->prepare("UPDATE users SET  name = :name, lastName= :lastName , mail = :mail, password = :password WHERE mail=:mail");
         $update->bindParam(":name", $name, PDO::PARAM_STR);
         $update->bindParam(":lastName", $lastName, PDO::PARAM_STR);
         $update->bindParam(":mail", $mail, PDO::PARAM_STR);
         $update->bindParam(":password", $password, PDO::PARAM_STR);
+        $update->bindParam(":id", $id, PDO::PARAM_STR);
+        $update->execute();
 
 
+    }
+
+    public function recupererUtilisateur($id=null)
+    {
+        global $bdd;
+
+        if ($id !== null){
+        $recuperer=$bdd->prepare("SELECT * FROM users where id=:id");
+        $cast=intval($id);
+        $recuperer->bindParam(":id", $cast, PDO::PARAM_STR);
+        $recuperer->execute();
+        $users=$recuperer->fetchAll();
+        return $users;
+        }else{
+            $recuperer=$bdd->prepare("select * from users");
+            $recuperer->execute();
+            $recupAll=$recuperer->fetchAll();
+            return $recupAll;
+
+        }
 
 
 
 
     }
 
-    public function supprimerCompte()
+    public function supprimerCompte($id)
     {
         global $bdd;
-        $utilisateurs= $_SESSION['id'];
 
-        $drop=$bdd->prepare("DROP user from users where id= :id");
-        $drop->execute();
+
+        $delete=$bdd->prepare("DELETE from users where id= :id");
+        $delete->bindParam(":id", $id, PDO::PARAM_STR);
+
+        $delete->execute();
 
 
     }
