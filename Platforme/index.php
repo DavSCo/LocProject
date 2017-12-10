@@ -1,6 +1,7 @@
 <?php
 require_once('Models/dbconn.php');
 require_once('Models/UserSQL.php');
+require_once ('Models/LocalSQL.php');
 
 if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/homeController.php');
@@ -17,4 +18,8 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'delete_user') {
     require_once('Controllers/deleteUserControllers.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
-    require_once('Controllers/deconnectionController.php');}
+    require_once('Controllers/deconnectionController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
+    require_once('Controllers/deconnectionController.php');
+}
+
