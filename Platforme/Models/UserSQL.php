@@ -131,6 +131,7 @@ class UserSQL
         $afficher->bindParam(":user_id",$id,PDO::PARAM_STR);
         $afficher->execute();
         $afficherLocal=$afficher->fetchAll();
+
         return $afficherLocal;
     }
 
