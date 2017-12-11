@@ -3540,12 +3540,12 @@ tbody.collapse.show {
   border-color: #e9ecef #e9ecef #ddd;
 }
 
+
 .nav-tabs .nav-link.disabled {
   color: #868e96;
   background-color: transparent;
   border-color: transparent;
 }
-
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;

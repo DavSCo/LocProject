@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Connexion</title>
-    <link rel="stylesheet" href="Views/css/connection.css">
-</head>
-<body>
+<?php require_once ('Views/Layout.php');?>
    
    <div class="form-wrapper">
   <h1>Login</h1>

@@ -53,4 +53,15 @@ class LocalSQL
 
     }
 
+    public function selectXLastLocal()
+    {
+        global $bdd;
+
+        $selectXLastLocal = $bdd->prepare("SELECT * FROM `locaux` t1 WHERE (SELECT COUNT(*) FROM `locaux` t2 WHERE t1.id < t2.id) < 6 ORDER BY id ASC");
+        $selectXLastLocal->execute();
+        $selectXNumber = $selectXLastLocal->fetchAll();
+
+        return $selectXNumber;
+    }
+
 }
