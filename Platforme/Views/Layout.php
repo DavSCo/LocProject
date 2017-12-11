@@ -28,7 +28,7 @@
     <link href="Views/css/new-age.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
     <link rel="stylesheet" href="Views/css/connection.css">
-
+    <link href="Views/css/shop-item.css" rel="stylesheet">
 
 </head>
 
@@ -52,7 +52,7 @@
                     <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>

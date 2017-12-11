@@ -1,7 +1,7 @@
 <?php
 require_once ('Models/UserSQL.php');
-$afficher= new UserSQL();
-$afficherLocalUser=$afficher->recupererUtilisateur($_SESSION['id']);
+$afficher = new UserSQL();
+$afficherLocalUser  = $afficher->afficherLocal($_SESSION['id']);
 
 if (!empty($_SESSION))
 {

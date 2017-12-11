@@ -1,6 +1,5 @@
 <?php require_once ('Views/Layout.php')?>
 
-
 <div class="login-page">
     <div class="form-wrapper"><h1>Sign in</h1>
         <!--    <form class="register-form" method="post" action="traitement-inscription.php">
@@ -32,5 +31,8 @@
         </form>
     </div>
 </div>
+
+
+
 
 <?php require_once('Views/footer.php'); ?>
