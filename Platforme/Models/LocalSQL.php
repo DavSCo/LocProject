@@ -28,7 +28,7 @@ class LocalSQL
     public function selectLocal()
     {
         global $bdd;
-<<<<<<< HEAD
+
 
 
         $selectLocal = $bdd->prepare("SELECT * FROM locaux");
@@ -54,28 +54,3 @@ class LocalSQL
     }
 
 }
-=======
->>>>>>> 1f671497a2819d593653d6c897cc858ff98d5f02
-
-        $selectLocal = $bdd->prepare("SELECT * FROM locaux");
-        $selectLocal->execute();
-        $selectAllLocal = $selectLocal->fetchAll();
-
-        return $selectAllLocal;
-    }
-
-    public function selectLocalWithId($id)
-    {
-        global $bdd;
-
-        $selectLocalWithId = $bdd->prepare("SELECT * FROM locaux WHERE id=:id");
-        $selectLocalWithId->bindParam(":id", $id, PDO::PARAM_STR);
-        $selectLocalWithId->execute();
-        $selectLocalId = $selectLocalWithId->fetch();
-
-        return $selectLocalId;
-
-
-
-    }
-
