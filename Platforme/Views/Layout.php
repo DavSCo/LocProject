@@ -46,10 +46,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=signin">Inscription</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=signIn">Inscription</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=connection">Connexion</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#location">Location</a>

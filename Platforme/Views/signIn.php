@@ -32,6 +32,5 @@
         </form>
     </div>
 </div>
-</body>
 
 <?php require_once('Views/footer.php'); ?>
