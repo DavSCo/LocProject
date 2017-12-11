@@ -4,7 +4,6 @@ require_once('Models/dbconn.php');
 require_once('Models/UserSQL.php');
 require_once('Models/LocalSQL.php');
 
-require_once ('Models/LocalSQL.php');
 
 if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/homeController.php');
@@ -24,12 +23,12 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/deconnectionController.php');
 }*/elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
-}
-elseif (isset($_GET['p']) AND $_GET['p'] === 'localTest') {
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'localTest') {
     require_once('Controllers/afficherLocalController.php');
-}elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
     require_once('Controllers/deconnectionController.php');
-}elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
-    require_once('Controllers/deconnectionController.php');
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'listLoc') {
+    require_once('Controllers/listLocController.php');
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'productDetail') {
+    require_once('Controllers/productDetailController.php');
 }
-

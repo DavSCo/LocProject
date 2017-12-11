@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78d069c-744b-4f7a-a584-53231b118724" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Views/Layout.php" afterPath="$PROJECT_DIR$/Platforme/Views/Layout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Views/home.php" afterPath="$PROJECT_DIR$/Platforme/Views/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Views/signIn.php" afterPath="$PROJECT_DIR$/Platforme/Views/signIn.php" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" afterPath="$PROJECT_DIR$/Platforme/Controllers/SignInController.php" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +37,13 @@
       <file leaf-file-name="SignInController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="330">
               <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+=======
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -64,8 +74,13 @@
       <file leaf-file-name="addLocalController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Platforme/Controllers/addLocalController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="15">
               <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+=======
+            <state relative-caret-position="105">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -335,12 +350,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512375974963</updated>
+<<<<<<< Updated upstream
       <workItem from="1512375976204" duration="7818000" />
+=======
+      <workItem from="1512375976204" duration="10358000" />
+      <workItem from="1512552275136" duration="3980000" />
+      <workItem from="1512562453190" duration="1419000" />
+      <workItem from="1512898864210" duration="2178000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="7818000" />
+=======
+    <option name="totallyTimeSpent" value="17935000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -537,8 +563,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Platforme/Views/home.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="1764">
           <caret line="189" column="37" lean-forward="false" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
+=======
+        <state relative-caret-position="609">
+          <caret line="187" column="10" lean-forward="true" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Views/admin_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Platforme/Controllers/SignInController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
@@ -553,8 +608,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Platforme/Views/signIn.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="555">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+=======
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
