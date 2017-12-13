@@ -9,6 +9,6 @@ if (!empty($_POST)) {
     $succes = "<p class='erreur'>Inscription terminée</p>";
 
 }
-header('Location: index.php?p=Connection');
+/*header('Location: index.php?p=Connection');*/
 
 require_once ("Views/signIn.php");
