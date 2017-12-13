@@ -51,6 +51,9 @@
                     <a class="nav-link js-scroll-trigger" href="index.php?p=join">Particulier</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">Entreprise</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
                 </li>
                 <li class="nav-item">
@@ -76,6 +79,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=adminVendeur">Vendeur</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>

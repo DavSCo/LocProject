@@ -9,4 +9,4 @@ if (!empty($_SESSION))
     $succes = "<p class='erreur'>Local Actif</p>";
 
 }
-require_once ('Views/localTest.php');
+require_once ('Views/localUser.php');

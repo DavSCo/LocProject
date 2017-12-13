@@ -29,6 +29,78 @@ class VendeurSQL
         }
     }
 
+
+    public function recupererVendeur($id=null)
+    {
+        global $bdd;
+
+        if ($id !== null){
+            $recuperer=$bdd->prepare("SELECT * FROM vendeur where id=:id");
+            $cast=intval($id);
+            $recuperer->bindParam(":id", $cast, PDO::PARAM_STR);
+            $recuperer->execute();
+            $users=$recuperer->fetchAll();
+            return $users;
+        }else{
+            $recuperer=$bdd->prepare("select * from vendeur");
+            $recuperer->execute();
+            $recupAll=$recuperer->fetchAll();
+            return $recupAll;
+
+        }
+
+
+
+
+    }
+
+    public function updateCompteVendeur($nameSociety, $noSiret,$phone,$mail,$password,$id)
+    {
+        global $bdd;
+
+
+        $password = crypt($password, '$2a$07$302838711915bef2db65cc$');
+        $update=$bdd->prepare("UPDATE vendeur SET  nameSociety = :nameSociety,phone=:phone, noSiret= :noSiret , mail = :mail, password = :password WHERE id=:id");
+
+        $update->bindParam(":nameSociety", $nameSociety, PDO::PARAM_STR);
+        $update->bindParam(":phone", $phone, PDO::PARAM_STR);
+        $update->bindParam(":noSiret", $noSiret, PDO::PARAM_STR);
+        $update->bindParam(":mail", $mail, PDO::PARAM_STR);
+        $update->bindParam(":password", $password, PDO::PARAM_STR);
+        $update->bindParam(":id", $id, PDO::PARAM_STR);
+        $update->execute();
+
+
+    }
+
+
+
+    public function supprimerCompteVendeur($id)
+    {
+        global $bdd;
+
+
+        $delete=$bdd->prepare("DELETE from vendeur where id= :id");
+        $delete->bindParam(":id", $id, PDO::PARAM_STR);
+
+        $delete->execute();
+
+
+    }
+
+    public function afficherLocalVendeur($id)
+    {
+        global $bdd;
+        $afficher=$bdd->prepare("SELECT * from locaux where vend_id=:vend_id");
+        $afficher->bindParam(":vend_id",$id,PDO::PARAM_STR);
+        $afficher->execute();
+        $afficherLocal=$afficher->fetchAll();
+
+        return $afficherLocal;
+    }
+
+
+
     public function connectionVendeur()
     {
 

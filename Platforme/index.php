@@ -24,7 +24,7 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/joinVendeurController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
-} elseif (isset($_GET['p']) AND $_GET['p'] === 'localTest') {
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'localUser') {
     require_once('Controllers/afficherLocalController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
@@ -38,5 +38,13 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/rentPageController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'paymentPage') {
     require_once('Controllers/paymentPageController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'adminVendeur') {
+    require_once('Controllers/updateVendeurController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'delete_vendeur') {
+    require_once('Controllers/deleteVendeurController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'localVendeur') {
+    require_once('Controllers/afficherLocalVendeurController.php');
 }
+
+
 

@@ -8,7 +8,8 @@ $delete = new UserSQL();
 
 if (!empty($_GET['id'])) {
     $delete->supprimerCompte($_GET['id']);
-    header('Location: index.php?p=signIn ');
+/*    header('Location: index.php?p=join ');*/
+require_once ('deconnectionController.php');
 
 }
 require_once('Views/admin_user.php');
