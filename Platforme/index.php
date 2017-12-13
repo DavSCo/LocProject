@@ -3,12 +3,13 @@ ini_set('display_errors', 1);
 require_once('Models/dbconn.php');
 require_once('Models/UserSQL.php');
 require_once('Models/LocalSQL.php');
+require_once ('Models/VendeurSQL.php');
 
 
 if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/homeController.php');
-} elseif (isset($_GET['p']) AND $_GET['p'] === 'signIn') {
-    require_once('Controllers/SignInController.php');
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'join') {
+    require_once('Controllers/joinController.php');
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'Connection') {
@@ -19,19 +20,23 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/deconnectionController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'delete_user') {
     require_once('Controllers/deleteUserControllers.php');
-}/*elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
-    require_once('Controllers/deconnectionController.php');
-}*/elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'joinVendeur') {
+    require_once('Controllers/joinVendeurController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'localTest') {
     require_once('Controllers/afficherLocalController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'addLocal') {
     require_once('Controllers/addLocalController.php');
-
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnectionController') {
     require_once('Controllers/deconnectionController.php');
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'listLoc') {
     require_once('Controllers/listLocController.php');
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'productDetail') {
     require_once('Controllers/productDetailController.php');
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'rentPage') {
+    require_once('Controllers/rentPageController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'paymentPage') {
+    require_once('Controllers/paymentPageController.php');
 }
+

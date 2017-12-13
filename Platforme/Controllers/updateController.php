@@ -1,10 +1,10 @@
 <?php
-echo '<pre>';
-var_dump($_SESSION);
-echo '</pre>';
 require_once ('Models/UserSQL.php');
 /*if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false)
     header('Location: index.php?p=Connection');*/
+if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false) header('Location: index.php');
+
+
 $update = new UserSQL();
 $updateUsers=$update->recupererUtilisateur($_SESSION);
 

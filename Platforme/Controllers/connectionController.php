@@ -1,26 +1,36 @@
 <?php
+require_once('Models/VendeurSQL.php');
 require_once('Models/UserSQL.php');
 
+
 $connect = new UserSQL();
+$vend = new VendeurSQL();
 
-if (!empty($_POST)) {
 
-    $compte = $connect->connectionCompte();
+if ($_POST["Categorie"] == "Entreprise" && (!empty($_POST))) {
+    $compteVendeur = $vend->connectionVendeur();
 
-    if (count($compte)>0){
+    if (count($compteVendeur) > 0) {
 
         $_SESSION['connected'] = true;
-        $_SESSION['id'] = $compte[0]['id'];
-        $_SESSION['mail'] = $compte[0]['mail'];
+        $_SESSION['id'] = $compteVendeur[0]['id'];
 
+        var_dump($_SESSION);
 
-         header('Location: index.php');
 
     }
-}
-else {
-         echo 'error';
+
+} elseif ($_POST["Categorie"] == "Particulier" && (!empty($_POST))) {
+
+    $compte = $connect->connectionCompte();
+    $_SESSION['connected'] = true;
+    $_SESSION['id'] = $compte[0]['id'];
+
+    var_dump($_SESSION);
+
+
+} else {
+    $_SESSION['connected'] = false;
 }
 
 require_once('Views/Connection.php');
-?>

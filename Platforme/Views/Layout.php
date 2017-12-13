@@ -25,10 +25,11 @@
     <link rel="stylesheet" href="Views/device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="Views/css/new-age.min.css" rel="stylesheet">
+    <link href="Views/css/new-age.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
     <link rel="stylesheet" href="Views/css/connection.css">
     <link href="Views/css/shop-item.css" rel="stylesheet">
+
 
 </head>
 
@@ -37,16 +38,17 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Project</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php">Project</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <?php if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false){ ?>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=signIn">Inscription</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=join">Particulier</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
@@ -55,12 +57,31 @@
                     <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">ENTREPRISE</a>
                 </li>
             </ul>
+            <?php }else{?>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=join">Particulier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">Entreprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
+                    </li>
+                </ul>
+            <?php } ?>
         </div>
     </div>
 </nav>

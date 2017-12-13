@@ -27,7 +27,7 @@
                         <label>Area</label>
                         <div class="fields">
                             <div class="twelve wide field">
-                                <input type="text" name="area" placeholder="Area">
+                                <input type="number" name="area" placeholder="Area">
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                         <label>Price</label>
                         <div class="fields">
                             <div class="twelve wide field">
-                                <input type="text" name="price" placeholder="Price /Month">
+                                <input type="number" name="price" placeholder="Price /Month">
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                         <label>Time</label>
                         <div class="fields">
                             <div class="twelve wide field">
-                                <input type="text" name="time" placeholder="Time of Rent">
+                                <input type="number" name="time" placeholder="Time of Rent">
                             </div>
                         </div>
                     </div>
