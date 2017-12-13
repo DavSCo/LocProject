@@ -12,7 +12,7 @@
           <div class="col-lg-3">
               <h1 class="my-4"><?php echo $selectWithId['name']; ?></h1>
               <div class="list-group">
-                  <a href="#" class="btn btn-success">Louez !</a>
+                  <a href="index.php?p=rentPage&id=<?php echo $selectWithId['id']; ?>" class="btn btn-success">Louez !</a>
               </div>
           </div>
 
@@ -54,12 +54,9 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <?php
+    require_once ('Views/footer.php');
+    ?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

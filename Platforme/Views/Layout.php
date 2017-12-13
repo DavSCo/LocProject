@@ -25,10 +25,11 @@
     <link rel="stylesheet" href="Views/device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="Views/css/new-age.min.css" rel="stylesheet">
+    <link href="Views/css/new-age.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
     <link rel="stylesheet" href="Views/css/connection.css">
     <link href="Views/css/shop-item.css" rel="stylesheet">
+
 
 </head>
 
@@ -44,6 +45,7 @@
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <?php if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false){ ?>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=signIn">Inscription</a>
@@ -54,13 +56,26 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
-                </li>
             </ul>
+            <?php }else{?>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=signIn">Inscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
+                    </li>
+                </ul>
+            <?php } ?>
         </div>
     </div>
 </nav>

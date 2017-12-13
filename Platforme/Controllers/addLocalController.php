@@ -7,8 +7,4 @@ if (!empty($_POST)) {
 }
 
 
-
-
-
-
 require_once ("Views/addLocal.php");

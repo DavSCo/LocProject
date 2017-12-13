@@ -34,4 +34,9 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/listLocController.php');
 } elseif (isset($_GET['p']) AND $_GET['p'] === 'productDetail') {
     require_once('Controllers/productDetailController.php');
+} elseif (isset($_GET['p']) AND $_GET['p'] === 'rentPage') {
+    require_once('Controllers/rentPageController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'paymentPage') {
+    require_once('Controllers/paymentPageController.php');
 }
+
