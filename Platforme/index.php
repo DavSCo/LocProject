@@ -15,7 +15,7 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'Connection') {
     require_once('Controllers/connectionController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'admin_user') {
-    require_once('Controllers/updateController.php');
+    require_once('Controllers/navAdminController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'deconnection') {
     require_once('Controllers/deconnectionController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'delete_user') {
@@ -44,7 +44,12 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/deleteVendeurController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'localVendeur') {
     require_once('Controllers/afficherLocalVendeurController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'updateUsers') {
+    require_once('Controllers/updateController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'acceuilleUsers') {
+    require_once('Controllers/acceuilleUsersController.php');
 }
+
 
 
 

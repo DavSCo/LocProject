@@ -6,7 +6,7 @@ require_once ('Models/UserSQL.php');
 if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false) header('Location: index.php?p=Connection');
 
 $update = new UserSQL();
-$updateUsers=$update->recupererUtilisateur($_SESSION['id']);
+$recupUsers=$update->recupererUtilisateur($_SESSION['id']);
 
 
 
@@ -16,4 +16,4 @@ if (!empty($_POST['name']) && !empty($_POST['lastName']) && !empty($_POST['mail'
 
 }
 
-require_once ("Views/admin_user.php");
+require_once ("Views/updateUsers.php");

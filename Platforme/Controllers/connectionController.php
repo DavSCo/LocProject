@@ -15,8 +15,7 @@ if ($_POST["Categorie"] == "Entreprise" && (!empty($_POST))) {
         $_SESSION['connected'] = true;
         $_SESSION['id'] = $compteVendeur[0]['id'];
 
-        var_dump($_SESSION);
-
+header('Location: index.php');
 
     }
 
@@ -26,8 +25,8 @@ if ($_POST["Categorie"] == "Entreprise" && (!empty($_POST))) {
     $_SESSION['connected'] = true;
     $_SESSION['id'] = $compte[0]['id'];
 
-    var_dump($_SESSION);
 
+    header('Location: index.php');
 
 } else {
     $_SESSION['connected'] = false;

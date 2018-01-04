@@ -1,8 +1,9 @@
-<?php require_once ('Views/Layout.php');
+<?php require_once ('Views/admin_user.php');
 
 
 for ($i=0;$i<count($afficherLocalUser); $i++){
     ?>
+    <br><br>
     <div class="local" id="local">
         <div class="col-xs-2 col-xs-offset-1 table-caption">
             <div class="card h-100">
@@ -15,8 +16,8 @@ for ($i=0;$i<count($afficherLocalUser); $i++){
                     <p class="card-text"><?= $afficherLocalUser[$i]['area'] ?></p>
                 </div>
                 <div class="card-footer">
-                    <p><?= $afficherLocalUser[$i]['price'] ?></p> <br>
-                    <p><?= $afficherLocalUser[$i]['time'] ?></p><br>
+                    <p><?= $afficherLocalUser[$i]['price'] ?>€</p> <br>
+                    <p><?= $afficherLocalUser[$i]['time'] ?>Mois</p><br>
                     <p><?= $afficherLocalUser[$i]['description'] ?></p>
                 </div>
             </div>
