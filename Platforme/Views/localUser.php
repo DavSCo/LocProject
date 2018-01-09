@@ -1,28 +1,35 @@
-<?php require_once ('Views/admin_user.php');
+<?php require_once ('Views/adminVendeur.php');?>
 
 
-for ($i=0;$i<count($afficherLocalUser); $i++){
-    ?>
-    <br><br>
-    <div class="local" id="local">
-        <div class="col-xs-2 col-xs-offset-1 table-caption">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top"  src="<?= $afficherLocalUser[$i]['photo'] ?>" alt=""></a>
-                <div class="card-body">
-                    <h1><?= $afficherLocalUser[$i]['name'] ?></h1>
-                    <h4 class="card-title">
-                        <a href="#"><?= $afficherLocalUser[$i]['address'] ?></a>
-                    </h4>
-                    <p class="card-text"><?= $afficherLocalUser[$i]['area'] ?></p>
+
+
+
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <!-- Breadcrumbs-->
+        <div class="row">
+
+            <?php foreach ($afficherLocalUser as $item) { ?>
+
+                <div class="col-lg-4 col-md-6 mb-4" style="margin-top: 80px;">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="<?= $item['image'] ?>" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title"><?= $item['name']?></h4>
+                            <h5><?php echo $item['price'] ?> €</h5>
+                            <p class="card-text"><?php echo $item['area'] ?>m2</p>
+                            <p><?= $item['time'] ?>Mois</p><br>
+                            <p><?= $item['description'] ?></p>
+                        </div>
+                        <div class="card-footer">
+
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <p><?= $afficherLocalUser[$i]['price'] ?>€</p> <br>
-                    <p><?= $afficherLocalUser[$i]['time'] ?>Mois</p><br>
-                    <p><?= $afficherLocalUser[$i]['description'] ?></p>
-                </div>
-            </div>
+
+            <?php } ?>
         </div>
-
     </div>
-<?php } ?>
-
+</div>

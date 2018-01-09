@@ -78,9 +78,9 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                <a class="nav-link" href="index.php?p=acceuilleUsers">
+                <a class="nav-link" href="index.php?p=accueilUsers">
                     <i class="fa fa-fw fa-dashboard"></i>
-                    <span class="nav-link-text">Dashboard</span>
+                    <span class="nav-link-text">Accueil</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
@@ -96,7 +96,7 @@
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="index.php?p=deleteUser">
                     <i class="fa fa-fw fa-table"></i>
                     <span class="nav-link-text">Supprimer Mon Compte</span>
                 </a>

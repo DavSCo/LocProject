@@ -1,10 +1,28 @@
 <?php
 require_once ("Models/LocalSQL.php");
 $add = new LocalSQL();
+
+if (!empty($_FILES)) {
+
+    $name = $_FILES['photo']['name'];
+    $chemin = $_FILES['photo']['tmp_name'];
+    $dossier = 'Views/img/upload/' . $name;
+
+    if (move_uploaded_file($chemin, $dossier)) {
+        echo 'Upload effectué avec succès !';
+
+
+    } else {
+        echo 'Echec de l\'upload !';
+
+    }
+
+}
 if (!empty($_POST)) {
-    $add->addLocal(htmlentities($_POST['name']),htmlentities($_POST['address']),htmlentities($_POST['area']),htmlentities($_POST['price']),htmlentities($_POST['time']),htmlentities($_POST['description']));
+    $add->addLocal(htmlentities($_POST['name']),htmlentities($_POST['address']),htmlentities($_POST['area']),htmlentities($_POST['price']),htmlentities($_POST['time']),htmlentities($_POST['description']),$dossier);
     var_dump($_POST);
 }
+
 
 
 require_once ("Views/addLocal.php");

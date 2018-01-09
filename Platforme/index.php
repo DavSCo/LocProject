@@ -38,7 +38,7 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/rentPageController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'paymentPage') {
     require_once('Controllers/paymentPageController.php');
-}elseif (isset($_GET['p']) AND $_GET['p'] === 'adminVendeur') {
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'updateVendeur') {
     require_once('Controllers/updateVendeurController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'delete_vendeur') {
     require_once('Controllers/deleteVendeurController.php');
@@ -46,8 +46,16 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/afficherLocalVendeurController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'updateUsers') {
     require_once('Controllers/updateController.php');
-}elseif (isset($_GET['p']) AND $_GET['p'] === 'acceuilleUsers') {
-    require_once('Controllers/acceuilleUsersController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'accueilUsers') {
+    require_once('Controllers/accueilUsersController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'deleteUser') {
+    require_once('Controllers/deleteUserControllers.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'adminVendeur') {
+    require_once('Controllers/adminVendeurController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'deleteVendeur') {
+    require_once('Controllers/DeleteVendeurController.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'accueilVendeur') {
+    require_once('Controllers/accueilVendeurControllers.php');
 }
 
 

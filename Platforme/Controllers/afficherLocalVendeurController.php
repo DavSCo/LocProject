@@ -2,6 +2,7 @@
 require_once ('Models/VendeurSQL.php');
 $afficher = new VendeurSQL();
 $afficherLocalVendeur  = $afficher->afficherLocalVendeur($_SESSION['id']);
+$recupVendeur=$afficher->recupererVendeur($_SESSION['id']);
 
 if (!empty($_SESSION))
 {

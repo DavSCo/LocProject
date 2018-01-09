@@ -5,7 +5,7 @@ require_once ('Models/VendeurSQL.php');
 
 
 $update = new VendeurSQL();
-$updateVendeur=$update->recupererVendeur($_SESSION['id']);
+$recupVendeur=$update->recupererVendeur($_SESSION['id']);
 
 
 if (!empty($_POST['nameSociety']) &&!empty($_POST['phone']) &&!empty($_POST['noSiret'])&& !empty($_POST['mail']) && !empty($_POST['password'])) {
@@ -15,4 +15,4 @@ if (!empty($_POST['nameSociety']) &&!empty($_POST['phone']) &&!empty($_POST['noS
 
 }
 
-require_once ("Views/adminVendeur.php");
+require_once ("Views/updateVendeur.php");

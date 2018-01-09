@@ -54,6 +54,12 @@
                             <textarea name="description"></textarea>
                         </div>
                     </div>
+                    <div class="field">
+                        <label>Upload Local</label>
+                        <div class="field">
+                            <input type="file" name="photo" >
+                        </div>
+                    </div>
 
 
                     <button type="submit" class="ui button">Add Local</button>

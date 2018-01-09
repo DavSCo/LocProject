@@ -4,4 +4,4 @@ if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false) header('
 $users= new UserSQL();
 $recupUsers=$users->recupererUtilisateur($_SESSION['id']);
 
-require_once ("Views/acceuilleUsers.php");
+require_once ("Views/accueilUsers.php");
