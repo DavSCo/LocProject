@@ -13,9 +13,6 @@ if (!empty($_FILES)) {
     {
         echo 'Upload effectué avec succès !';
 
-        var_dump($_FILES['logo']['tmp_name']);
-        var_dump($dossier);
-        //echo '<img src="Views/img/upload/'.$name.'">';
 
     }
     else
@@ -28,6 +25,7 @@ if (!empty($_FILES)) {
 if (!empty($_POST)) {
 
     $create->inscriptionVendeur($dossier);
+    var_dump($_FILES);
     $succes = "<p class='erreur'>Inscription terminée</p>";
 }
 require_once ("Views/joinVendeur.php");

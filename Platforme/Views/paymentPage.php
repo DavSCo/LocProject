@@ -31,7 +31,7 @@
         <input class="expire" type="text" placeholder="MM / YYYY" />
         <label>Security Number</label>
         <input class="ccv" type="text" placeholder="CVC" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
-        <button class="buy">Pay <?php echo $selectWithId['price']?> €</button>
+        <a href="index.php?p=paymentLocal&id=<?=$_SESSION['id']?>&local=<?=$selectWithId['id']?>"> <button class="buy">Pay <?php echo $selectWithId['price']?> €</button></a>
     </div>
 </div>
 

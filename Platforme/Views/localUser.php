@@ -1,4 +1,4 @@
-<?php require_once ('Views/adminVendeur.php');?>
+<?php require_once ('Views/admin_user.php');?>
 
 
 

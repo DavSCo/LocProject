@@ -37,9 +37,9 @@
             <div class="card-body">
               <p>Adresse: <?php echo $selectWithId['address']; ?></p>
               <hr>
-                <p>Superficie : <?php echo $selectWithId['area']; ?></p>
+                <p>Superficie : <?php echo $selectWithId['area']; ?> m2</p>
               <hr>
-              <p>Durée minimal de loacation : <?php echo $selectWithId['time']; ?></p>
+              <p>Durée minimal de loacation : <?php echo $selectWithId['time']; ?> Mois</p>
               <hr>
             </div>
           </div>

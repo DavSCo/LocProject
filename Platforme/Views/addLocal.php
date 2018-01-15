@@ -5,7 +5,7 @@
     <div class="container h-100">
         <div class="login-page">
             <div class="form">
-                <form class="ui form" method="post">
+                <form class="ui form" method="post" enctype="multipart/form-data">
                     <h4 class="ui dividing header">Add Local</h4>
                     <div class="field">
                         <label>Name</label>

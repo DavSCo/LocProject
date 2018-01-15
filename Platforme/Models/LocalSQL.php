@@ -3,25 +3,34 @@
 
 class LocalSQL
 {
-    public function addLocal($name, $address, $area, $price, $time, $description,$dossier)
+    public function addLocal($name, $address, $area, $price, $time, $description,$dossier,$id)
     {
         global $bdd;
 
 
-        $addLocal = $bdd->prepare("INSERT INTO locaux (name, address, area, price, time, description,photo,vend_id,user_id) VALUES (:name,:address,:area,:price,:time,:description,:photo,null,null)");
+        $addLocal = $bdd->prepare("INSERT INTO locaux (name, address, area, price, time, description,photo,vend_id) VALUES (:name,:address,:area,:price,:time,:description,:photo,:vend_id);");
 
 
-        $addLocal->bindParam(":name", $name, PDO::PARAM_STR);
-        $addLocal->bindParam(":address", $address, PDO::PARAM_STR);
-        $addLocal->bindParam(":area", $area, PDO::PARAM_STR);
-        $addLocal->bindParam(":price", $price, PDO::PARAM_STR);
-        $addLocal->bindParam(":time", $time, PDO::PARAM_STR);
-        $addLocal->bindParam(":description", $description, PDO::PARAM_STR);
-        $addLocal->bindParam(':photo', $dossier, PDO::PARAM_STR);
-
-        /*        $addLocal->bindParam(":user_id",$id,PDO::PARAM_STR);*/
-        $addLocal->execute();
-        var_dump($addLocal->errorInfo());
+        $addLocal->execute([
+            ":name"=>$name,
+            ":address"=>$address,
+            ":area"=>$area,
+            ":price"=>$price,
+            "time"=>$time,
+            ":description"=>$description,
+            ":photo"=>$dossier,
+            ":vend_id" => $id
+        ]);
+    }
+    public function addCommande($local_id,$user_id)
+    {
+        global $bdd;
+        $addCommande=$bdd->prepare("INSERT INTO commandeLocal (local_id,user_id) VALUES (:local_id,:user_id)");
+        $addCommande->execute([
+            ":local_id"=>$local_id,
+            ":user_id"=>$user_id
+        ]);
+        var_dump($addCommande->errorInfo());
     }
 
     public function selectLocal()

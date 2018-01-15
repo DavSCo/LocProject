@@ -56,6 +56,8 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/DeleteVendeurController.php');
 }elseif (isset($_GET['p']) AND $_GET['p'] === 'accueilVendeur') {
     require_once('Controllers/accueilVendeurControllers.php');
+}elseif (isset($_GET['p']) AND $_GET['p'] === 'paymentLocal') {
+    require_once('Controllers/paymentLocalControllers.php');
 }
 
 
