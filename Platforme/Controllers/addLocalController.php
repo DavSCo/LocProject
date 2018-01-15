@@ -3,7 +3,6 @@ require_once ("Models/LocalSQL.php");
 $add = new LocalSQL();
 var_dump($_FILES);
 if (!empty($_FILES)) {
-echo 'salut';
     $name = $_FILES['photo']['name'];
     $chemin = $_FILES['photo']['tmp_name'];
     $dossier = 'Views/img/upload/' . $name;
@@ -18,7 +17,6 @@ echo 'salut';
     }
 
 }
-echo $dossier;
 $id=intval($_SESSION['id']);
 if (!empty($_POST)) {
     $add->addLocal(htmlentities($_POST['name']),htmlentities($_POST['address']),htmlentities($_POST['area']),htmlentities($_POST['price']),htmlentities($_POST['time']),htmlentities($_POST['description']),$dossier,$id);
