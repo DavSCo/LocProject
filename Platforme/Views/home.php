@@ -34,7 +34,7 @@ include_once('Layout.php');
                 <h2 class="section-heading">Decouvrez le nouveau monde de la location courte durée</h2>
                 <p>FreeLancer, Start Up, Auto-entrepreneur , inscrivez vous vite ! Et louez ! </p>
                 <div class="badges">
-                    <a href="index.php?p=signIn" class="btn btn-outline btn-xl js-scroll-trigger">Inscription</a>
+                    <a href="index.php?p=join" class="btn btn-outline btn-xl js-scroll-trigger">Inscription</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ include_once('Layout.php');
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                        <a href="#"><img class="card-img-top" src="<?=$item['photo']?>" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="index.php?p=productDetail&id=<?php echo $item['id']?>"><?php echo $item['name']?></a>
@@ -109,5 +109,4 @@ include_once('Layout.php');
         </ul>
     </div>
 </section>
-
 <?php require_once ('Views/footer.php')?>

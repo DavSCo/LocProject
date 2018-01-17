@@ -20,7 +20,7 @@ if (!empty($_FILES)) {
 $id=intval($_SESSION['id']);
 if (!empty($_POST)) {
     $add->addLocal(htmlentities($_POST['name']),htmlentities($_POST['address']),htmlentities($_POST['area']),htmlentities($_POST['price']),htmlentities($_POST['time']),htmlentities($_POST['description']),$dossier,$id);
-
+var_dump($_POST);
 }
 
 
