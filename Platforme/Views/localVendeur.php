@@ -36,7 +36,7 @@
                         <a href="#"><img class="card-img-top" src="<?= $item['photo'] ?>" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="index.php?p=updateGlasses&id=<?php echo $item['id'] ?>"><?php echo $item['name'] ?></a>
+                                <p><?php echo $item['name'] ?></p>
                             </h4>
                             <h5><?php echo $item['price'] ?> €</h5>
                             <p class="card-text"><?php echo $item['area'] ?>m2</p>
@@ -47,8 +47,9 @@
 
                             <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                         </div>
-
+                        <a href="index.php?p=updateLoc&id=<?=$item['id'] ?>">Modifier votre local</a>
                     </div>
+
                 </div>
 
             <?php } ?>

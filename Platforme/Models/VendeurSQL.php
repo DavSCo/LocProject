@@ -40,7 +40,7 @@ class VendeurSQL
             $recuperer->bindParam(":id", $cast, PDO::PARAM_STR);
             $recuperer->execute();
             $users=$recuperer->fetchAll();
-            return $users;
+
         }else{
             $recuperer=$bdd->prepare("select * from vendeur");
             $recuperer->execute();

@@ -30,7 +30,21 @@ class LocalSQL
             ":local_id"=>$local_id,
             ":user_id"=>$user_id
         ]);
-        var_dump($addCommande->errorInfo());
+    }
+    public function updateCommande($name,$address,$area,$price,$time,$description,$id)
+    {
+        global $bdd;
+        $updateCommande=$bdd->prepare("UPDATE locaux SET name =:name , address=:address, area=:area,price=:price,time=:time,description=:description WHERE id=:id");
+        $updateCommande->execute([
+           ":name"=> $name,
+            ":address"=>$address,
+            ":area"=>$area,
+            ":price"=>$price,
+            ":time"=>$time,
+            ":description"=>$description,
+            ":id"=>$id
+        ]);
+        var_dump($updateCommande->errorInfo());
     }
 
     public function selectLocal()

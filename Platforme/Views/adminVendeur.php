@@ -66,6 +66,9 @@
 
     <link rel="stylesheet" href="Views/css/formulaire.css">
     <!-- Custom styles for this template-->
+    <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
+    <link rel="stylesheet" href="Views/css/connection.css">
+    <link href="Views/css/shop-item.css" rel="stylesheet">
     <link href="Views/css/sb-admin.css" rel="stylesheet">
 
 </head>
@@ -103,6 +106,13 @@
                     <span class="nav-link-text">Supprimer Mon Compte</span>
                 </a>
             </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+                <a class="nav-link" href="index.php?p=addLocal">
+                    <i class="fa fa-fw fa-table"></i>
+                    <span class="nav-link-text">Ajoutez un local</span>
+                </a>
+            </li>
+
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
                 <a class="nav-link" href="index.php">
                     <i class="fa fa-fw fa-table"></i>

@@ -1,4 +1,4 @@
-<?php require_once ("Layout.php");?>
+<?php require_once ("adminVendeur.php");?>
 
 
 <header class="masthead">

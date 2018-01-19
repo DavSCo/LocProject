@@ -12,16 +12,20 @@ if ($_POST["Categorie"] == "Entreprise" && (!empty($_POST))) {
 
     if (count($compteVendeur) > 0) {
 
+        $_SESSION['entreprise'] = true;
+        $_SESSION['particulier'] = false;
         $_SESSION['connected'] = true;
         $_SESSION['id'] = $compteVendeur[0]['id'];
 
-header('Location: index.php');
+        header('Location: index.php');
 
     }
 
 } elseif ($_POST["Categorie"] == "Particulier" && (!empty($_POST))) {
 
     $compte = $connect->connectionCompte();
+    $_SESSION['entreprise'] = false;
+    $_SESSION['particulier'] = true;
     $_SESSION['connected'] = true;
     $_SESSION['id'] = $compte[0]['id'];
 
