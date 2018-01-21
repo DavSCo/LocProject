@@ -45,7 +45,7 @@
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <?php if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false){ ?>
+            <?php if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false|| !isset($_SESSION['entreprise'])|| !isset($_SESSION['particulier'])){ ?>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=join">Particulier</a>
@@ -63,31 +63,32 @@
                     <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">ENTREPRISE</a>
                 </li>
             </ul>
-            <?php }else{?>
+            <?php }elseif($_SESSION['entreprise']===true && $_SESSION['particulier']===false && isset($_SESSION['connected']) ){?>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.php?p=join">Particulier</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">Entreprise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
-                    </li>
-                    <li class="nav-item">
+                   <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
-                    </li>
+
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.php?p=admin_user">admin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.php?p=adminVendeur">Vendeur</a>
+                        <a class="nav-link js-scroll-trigger" href="index.php?p=accueilVendeur">Vendeur</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
                     </li>
                 </ul>
-            <?php } ?>
+            <?php } elseif($_SESSION['entreprise']===false && $_SESSION['particulier']===true && isset($_SESSION['connected'])){?>
+            <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=accueilUsers">admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.php?p=deconnection">deconnection</a>
+                </li>
+            </ul>
+           <?php }?>
         </div>
     </div>
 </nav>

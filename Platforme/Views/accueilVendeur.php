@@ -9,7 +9,7 @@
                     <img src="<?= $recupVendeur[0]['logo']?>" style="height: 200px;alt="">
 
 
-                </div>
+                    </div>
                 <h1 style="border: 2px solid black; border-radius: 3px; padding:20px; margin-left:30vw ; margin-top: 30vh; ">
                     HELLO <?= $recupVendeur[0]['nameSociety'] ?></h1>
 
