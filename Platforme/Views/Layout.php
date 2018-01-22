@@ -29,7 +29,7 @@
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
     <link rel="stylesheet" href="Views/css/connection.css">
     <link href="Views/css/shop-item.css" rel="stylesheet">
-
+<link rel="stylesheet" href="Views/css/layout.css">
 
 </head>
 
@@ -47,20 +47,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <?php if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false|| !isset($_SESSION['entreprise'])|| !isset($_SESSION['particulier'])){ ?>
             <ul class="navbar-nav ml-auto">
+    
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=join">Particulier</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">Entreprise</a>
+                    <a class="nav-link js-scroll-trigger" id="onclick">Inscription</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=Connection">Connexion</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="index.php?p=listLoc">Location</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="index.php?p=joinVendeur">ENTREPRISE</a>
                 </li>
             </ul>
             <?php }elseif($_SESSION['entreprise']===true && $_SESSION['particulier']===false && isset($_SESSION['connected']) ){?>
@@ -92,5 +87,21 @@
         </div>
     </div>
 </nav>
+<section id="popin" class="hidden"> 
+    <div class="container-text" class="spoiler" onclick="">
+        <header class="had">
+           
+  <a class="close" href="#" id="lol">X</a>
+            <h2>Création de compte</h2>
+        </header>
+        <h3>Choisissez votre type de compte</h3>
+        
+     <a class="aa" href="index.php?p=join">Particulier</a>
+                
+    <a class="bb" href="index.php?p=joinVendeur">Entreprise</a>
+                  
+    </div>
+
+</section>
 
 

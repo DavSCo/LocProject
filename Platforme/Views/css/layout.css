@@ -1,0 +1,57 @@
+.hidden{
+    display: none;
+    position: absolute; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 23%;
+    top: 0;
+    width: 50%; 
+    overflow: auto; 
+   /* background-color: rgb(0,0,0); */
+  
+    text-align: center;
+    box-sizing: inherit;
+}
+.container-text{
+       background-color: white;
+    margin: auto;
+    padding: 20px 78px 35px;
+    border: 1px solid #888;
+   
+    
+}
+header.had{
+    border-bottom: 1px solid black;
+}
+a.aa {
+    border: 1px solid black;
+    color: black;
+    padding: 5px 49px 8px;
+}
+a.bb {
+    border: 1px solid black;
+    color: black;
+    padding: 5px 49px 8px;
+    margin-left: 6%;
+
+}
+.had h2{
+    font-size: 21px;
+    padding: 16px;
+    font-family: initial;
+    color: black;
+}
+h3 {
+    font-size: 14px;
+    padding: 13px;
+  /*  color: #000000d6;*/
+     color: #cb6f6fd6;
+}
+a#onclick{
+    cursor: pointer;
+}
+#lol{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+}

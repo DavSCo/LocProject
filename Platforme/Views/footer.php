@@ -24,6 +24,7 @@
 
 <!-- Custom scripts for this template -->
 <script src="Views/js/new-age.min.js"></script>
+<script type="text/javascript" src="Views/js/layout.js"></script>
 
 </body>
 
