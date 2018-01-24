@@ -53,6 +53,24 @@ class VendeurSQL
 
 
     }
+        public function Testmail()
+    {
+        global $bdd;
+        $mail = $_POST['mail'];
+        $inscription = $bdd->prepare("SELECT * FROM vendeur WHERE mail = :mail");
+        $inscription->bindParam(":mail", $mail, PDO::PARAM_STR);
+        $inscription->execute();
+        $compte = $inscription->fetchAll();
+        
+            if (count($compte) > 0)
+        {
+                return false;
+                
+		} else{
+                return true;
+		}
+        
+     }
 
     public function updateCompteVendeur($nameSociety, $noSiret,$phone,$mail,$password,$id)
     {

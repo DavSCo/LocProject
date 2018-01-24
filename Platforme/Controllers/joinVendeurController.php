@@ -21,11 +21,17 @@ if (!empty($_FILES)) {
         echo 'Echec de l\'upload !';
 
     }
-}
-if (!empty($_POST)) {
-
+}if (!empty($_POST))
+{
+if($create->Testmail()){
     $create->inscriptionVendeur($dossier);
-    var_dump($_FILES);
     $succes = "<p class='erreur'>Inscription terminée</p>";
-}
+    echo 'Inscription terminée';
+    
+}else {
+     $erreur = '<p class="erreur">Il y a eu une erreur...</p>';
+    echo 'Il existe déjà un compte pour cette adresse mail,inscrivez-vous à nouveaux';
+}}
+
+
 require_once ("Views/joinVendeur.php");

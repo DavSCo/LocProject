@@ -39,16 +39,38 @@ class UserSQL
 
         global $bdd;
         $mail = $_POST['mail'];
+
         $password = crypt($_POST['password'], '$2a$07$302838711915bef2db65cc$');
         $connection = $bdd->prepare("SELECT * FROM users WHERE mail = :mail AND password = :password");
         $connection->bindParam(":mail", $mail, PDO::PARAM_STR);
         $connection->bindParam(":password", $password, PDO::PARAM_STR);
+         
         $connection->execute();
         $compte = $connection->fetchAll();
 
         return $compte;
     }
 
+    public function Testmail()
+    {
+        global $bdd;
+        $mail = $_POST['mail'];
+        $inscription = $bdd->prepare("SELECT * FROM users WHERE mail = :mail");
+        $inscription->bindParam(":mail", $mail, PDO::PARAM_STR);
+        $inscription->execute();
+        $compte = $inscription->fetchAll();
+        
+            if (count($compte) > 0)
+        {
+                return false;
+                
+		} else{
+                return true;
+		}
+        
+     }
+    
+    
     public function updateCompte($name, $lastName,$mail,$password,$id)
     {
         global $bdd;
