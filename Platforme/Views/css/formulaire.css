@@ -7,13 +7,14 @@
     left:35%;
 }
 .form-label {
-    font-size: 12px;
-    color: #5e9bfc;
+    font-size: 16px;
+    color: #cb3d4e;
     margin: 0;
     display: block;
     opacity: 1;
     -webkit-transition: .333s ease top, .333s ease opacity;
     transition: .333s ease top, .333s ease opacity;
+    text-align: center;
 }
 .form-control {
     border-radius: 0;
@@ -22,16 +23,16 @@
     border-style: none none solid none;
     box-shadow: none;
     width: 50%;
-    margin: 20px 240px 20px;
-    height: 52px;
+    margin: 22px 340px 24px;
+    height: 61px;
     border: 1px solid #605353c9;
 }.form-group{
-    letter-spacing: 6px;
+    letter-spacing: 3px;
 }
 
 .form-control:focus {
     box-shadow: none;
-    border-color: #5e9bfc;
+    border-color: #cb3d4e;
 }
 .js-hide-label {
     opacity: 0;
@@ -53,8 +54,8 @@
     transition: all 0.25s ease 0s;
 }
 .btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
-    border-color: #5e9bfc;
-    color: #5e9bfc;
+    border-color: #cb3d4e;
+    color: #cb3d4e;
 }
 [type="file"] {
     /* Style the color of the message that says 'No file chosen' */
