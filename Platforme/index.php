@@ -62,6 +62,3 @@ if (!isset($_GET['p']) OR $_GET['p'] === 'index') {
     require_once('Controllers/updateLocController.php');
 }
 
-
-
-

@@ -7,8 +7,7 @@ include_once('Layout.php');
             <div class="row h-100">
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
-                        <?php if ($_SESSION['entreprise'] === false && $_SESSION['particulier'] === true) { ?>
-
+                        <?php if (array(null)) { ?>
 
                             <h1 class="mb-5">Vous cherchez un bureau ! Un local ! <br>C'est ici que sa ce passe ! </h1>
 
@@ -18,7 +17,7 @@ include_once('Layout.php');
 
                             <a href="index.php?p=addLocal" class="btn btn-outline btn-xl js-scroll-trigger">Deposer
                                 votre local </a>
-                        <?php } elseif ($_SESSION['connected'] || $_SESSION['connected'] === false) { ?>
+                        <?php } elseif ($_SESSION['entreprise'] === false && $_SESSION['particulier'] === true) { ?>
 
                             <h1 class="mb-5">Vous cherchez un bureau ! Un local ! <br>C'est ici que sa ce passe ! </h1>
                             <a href="index.php?p=listLoc" class="btn btn-outline btn-xl js-scroll-trigger">Louez !</a>

@@ -1,8 +1,7 @@
 <?php
 require_once ('Models/LocalSQL.php');
 
-
-
+var_dump($_SESSION);
 
 
 $select = new LocalSQL();
