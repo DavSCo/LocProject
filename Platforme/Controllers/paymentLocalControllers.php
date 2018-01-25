@@ -6,7 +6,7 @@ if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false )
 
 $users = new UserSQL();
 $addCommande=new LocalSQL();
-$selectWithId = $addCommande->selectLocalWithId($_GET['id']);
+$afficherLocalUser = $addCommande->selectLocalWithId($_GET['id']);
 $recupUsers=$users->recupererUtilisateur($_SESSION['id']);
 
 $user_id=intval($_GET['id']);

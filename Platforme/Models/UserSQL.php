@@ -112,24 +112,7 @@ class UserSQL
 
 
     }
-      /*public function recupererLocal($id=null)
-      {
-          global $bdd;
-          if ($id!== null)
-          {
-              $recuperer=$bdd->prepare("select * from locaux where id=:id");
-              $cast=intval($id);
-              $recuperer->bindParam(":id",$cast,PDO::PARAM_STR);
-              $recuperer->execute();
-              $recupLocal=$recuperer->fetchAll();
-              return $recupLocal;
-          }else{
-              $recuperer=$bdd->prepare("select * from locaux ");
-              $recuperer->execute();
-              $recupAll=$recuperer->fetchAll();
-              return $recupAll;
-          }
-      }*/
+
 
 
     public function supprimerCompte($id)
@@ -148,7 +131,7 @@ class UserSQL
     public function afficherLocal($id)
     {
         global $bdd;
-        $afficher=$bdd->prepare("SELECT * from locaux where user_id=:user_id");
+        $afficher=$bdd->prepare("SELECT * from commandeLocal where user_id=:user_id");
         $afficher->bindParam(":user_id",$id,PDO::PARAM_STR);
         $afficher->execute();
         $afficherLocal=$afficher->fetchAll();

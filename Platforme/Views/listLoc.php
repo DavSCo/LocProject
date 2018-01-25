@@ -10,32 +10,32 @@ include_once('Layout.php');
         </div>
         <div class="row">
             <div class="row">
-<?php
+                <?php
 
-foreach ($selectAllLocal as $item)
-{
-    echo '<div class="col-lg-4 col-md-6 mb-4">';
+                foreach ($selectAllLocal as $item) {
+                    echo '<div class="col-lg-4 col-md-6 mb-4">';
                     echo '<div class="card h-100">';
-                        echo'<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>';
-                        echo '<div class="card-body">';
-                            echo '<h4 class="card-title">';
-                                echo '<a href="index.php?p=productDetail&id='.$item['id'].'">' .$item['name'].'</a>';
-                            echo '</h4>';
-                            echo '<h5>'.$item['price'].' €</h5>';
-                            echo '<p class="card-text">'.$item['description'].'</p>';
-                        echo '</div>';
-                        echo '<div class="card-footer">';
-                            echo '<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>';
-                        echo '</div>';
+                    echo '<a href="#"><img class="card-img-top" src="' . $item['photo'] . '" alt=""    style="height: 250px; width: 358px;"></a>';
+                    echo '<div class="card-body">';
+                    echo '<h4 class="card-title">';
+                    echo '<a href="index.php?p=productDetail&id=' . $item['id'] . '">' . $item['name'] . '</a>';
+                    echo '</h4>';
+                    echo '<h5>' . $item['price'] . ' €</h5>';
+                    echo '<p class="card-text">' . $item['description'] . '</p>';
+                    echo '<p class="card-text">' . $item['address'] . '</p>';
+
                     echo '</div>';
-                echo '</div>';
-}
-?>
+                    echo '<div class="card-footer">';
+                    echo '<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+                ?>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <footer>
