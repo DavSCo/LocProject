@@ -7,7 +7,7 @@ include_once('Layout.php');
             <div class="row h-100">
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
-                        <?php if (array($_SESSION) == null || $_SESSION['connected'] == nulls) { ?>
+                        <?php if (array($_SESSION) == null || $_SESSION['connected'] == null) { ?>
 
                             <h1 class="mb-5">Vous cherchez un bureau ! Un local ! <br>C'est ici que sa ce passe ! </h1>
 
