@@ -71,6 +71,24 @@ class VendeurSQL
 		}
         
      }
+     public function Testsiret()
+    {
+        global $bdd;
+        $noSiret = $_POST['noSiret'];
+        $inscription = $bdd->prepare("SELECT * FROM vendeur WHERE noSiret = :noSiret");
+        $inscription->bindParam(":noSiret", $noSiret, PDO::PARAM_STR);
+        $inscription->execute();
+        $compte = $inscription->fetchAll();
+        
+            if (count($compte) > 0)
+        {
+                return false;
+                
+		} else{
+                return true;
+		}
+        
+     }
 
     public function updateCompteVendeur($nameSociety, $noSiret,$phone,$mail,$password,$id)
     {
