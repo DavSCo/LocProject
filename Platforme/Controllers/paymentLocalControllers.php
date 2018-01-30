@@ -6,11 +6,14 @@ if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false )
 
 $users = new UserSQL();
 $addCommande=new LocalSQL();
-$afficherLocalUser = $addCommande->selectLocalWithId($_GET['id']);
+$selectWithId = $addCommande->selectLocalWithId($_GET['id']);
 $recupUsers=$users->recupererUtilisateur($_SESSION['id']);
 
 $user_id=intval($_GET['id']);
 $local_id=intval($_GET['local']);
 $addCommande->addCommande($local_id,$user_id);
+
+
+
 require_once('Views/paymentPage.php');
 
