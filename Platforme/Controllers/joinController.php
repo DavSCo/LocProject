@@ -37,6 +37,7 @@ if (!empty($_POST)) {
         echo 'Inscription terminée ';
     
     }
+   
 }
 
 

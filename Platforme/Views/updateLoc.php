@@ -6,31 +6,31 @@ require_once ('Views/adminVendeur.php');
     <div class="form-group">
         <label class="form-label" for="name">Name</label>
         <input type="text" class="form-control" id="name" name="name"
-               value="<?= $selectWithId[0]['name'] ?>">
+               value="<?= $selectWithId['name'] ?>">
     </div>
     <div class="form-group">
         <label class="form-label" for="marque">Address</label>
-        <input type="text" class="form-control" value="<?= $selectWithId[0]['address'] ?>"
+        <input type="text" class="form-control" value="<?= $selectWithId['address'] ?>"
                placeholder="Nom" name="address">
     </div>
     <div class="form-group">
         <label class="form-label" for="price">Area</label>
-        <input type="number" class="form-control" value="<?= $selectWithId[0]['area'] ?>"
+        <input type="number" class="form-control" value="<?= $selectWithId['area'] ?>"
                placeholder="area" name="area">
     </div>
     <div class="form-group">
         <label class="form-label" for="ref">Price</label>
-        <input class="form-control" type="number" value="<?= $selectWithId[0]['price'] ?>"
+        <input class="form-control" type="number" value="<?= $selectWithId['price'] ?>"
                placeholder="price" name="price">
     </div>
     <div class="form-group">
         <label class="form-label" for="ref">Time</label>
-        <input class="form-control" type="number" value="<?= $selectWithId[0]['time'] ?>"
+        <input class="form-control" type="number" value="<?= $selectWithId['time'] ?>"
                placeholder="time" name="time">
     </div>
     <div class="form-group">
         <label class="form-label" for="ref">Description</label>
-        <input class="form-control" type="text" value="<?= $selectWithId[0]['description'] ?>"
+        <input class="form-control" type="text" value="<?= $selectWithId['description'] ?>"
                placeholder="description" name="description">
     </div>
     <div class="text-center">

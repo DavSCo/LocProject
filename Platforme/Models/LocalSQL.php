@@ -46,13 +46,12 @@ class LocalSQL
         ]);
     }
 
-    public function selectLocal($id)
+    public function selectLocal()
     {
         global $bdd;
 
 
-        $selectLocal = $bdd->prepare("SELECT * FROM locaux where id=$id");
-        $selectLocal->bindParam(":id", $id, PDO::PARAM_STR);
+        $selectLocal = $bdd->prepare("SELECT * FROM locaux  ");
         $selectLocal->execute();
         $selectAllLocal = $selectLocal->fetchAll();
 
