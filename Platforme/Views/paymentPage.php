@@ -32,7 +32,7 @@
             <input class="expire" type="text" placeholder="MM / YYYY" />
             <label>Security Number</label>
             <input class="ccv" type="text" placeholder="CVC" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
-            <button class="buy" type="submit">Pay <?php echo $selectWithId['price']?> €</button></a>
+            <button class="buy" type="submit">Pay <?php echo $selectWithId['price']?></button></a>
         </div>
     </form>
 </div>

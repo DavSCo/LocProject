@@ -11,7 +11,6 @@ $recupUsers=$users->recupererUtilisateur($_SESSION['id']);
 
 
 $number = $_POST['number'];
-var_dump($number);
 
 function is_valid_luhn($number) {
     settype($number, 'string');
@@ -25,7 +24,7 @@ function is_valid_luhn($number) {
     }
     return $sum % 10 === 0;
 }
-var_dump(is_valid_luhn($number));
+
 
 if (!empty($_POST['number']))
 {
@@ -36,6 +35,7 @@ if (!empty($_POST['number']))
         $user_id=intval($_GET['id']);
         $local_id=intval($_GET['local']);
         $addCommande->addCommande($local_id,$user_id);
+        header('Location: index.php');
     }else
     {
         echo "<p>Erreur carte</p>";
