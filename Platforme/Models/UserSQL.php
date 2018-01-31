@@ -149,7 +149,7 @@ class UserSQL
     public function afficherLocal($id)
     {
         global $bdd;
-        $afficher=$bdd->prepare("SELECT * from commandeLocal where user_id=:user_id");
+        $afficher=$bdd->prepare("SELECT * FROM locaux,commandeLocal WHERE commandeLocal.user_id = $id");
         $afficher->bindParam(":user_id",$id,PDO::PARAM_STR);
         $afficher->execute();
         $afficherLocal=$afficher->fetchAll();
