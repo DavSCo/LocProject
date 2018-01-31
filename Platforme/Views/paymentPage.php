@@ -22,17 +22,19 @@
             </div>
         </div>
     </div>
-    <div class="col2">
-        <label>Card Number</label>
-        <input class="number" type="text" ng-model="ncard" maxlength="19" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
-        <label>Cardholder name</label>
-        <input class="inputname" type="text" placeholder="" />
-        <label>Expiry date</label>
-        <input class="expire" type="text" placeholder="MM / YYYY" />
-        <label>Security Number</label>
-        <input class="ccv" type="text" placeholder="CVC" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
-        <a href="index.php?p=paymentLocal&id=<?=$_SESSION['id']?>&local=<?=$selectWithId['id']?>"> <button class="buy">Pay <?php echo $selectWithId['price']?> €</button></a>
-    </div>
+    <form method="post" action="index.php?p=paymentLocal&id=<?=$_SESSION['id']?>&local=<?=$selectWithId['id']?>">
+        <div class="col2">
+            <label>Card Number</label>
+            <input class="number" type="text" name="number" ng-model="ncard" maxlength="19" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+            <label>Cardholder name</label>
+            <input class="inputname" type="text" placeholder="" />
+            <label>Expiry date</label>
+            <input class="expire" type="text" placeholder="MM / YYYY" />
+            <label>Security Number</label>
+            <input class="ccv" type="text" placeholder="CVC" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' />
+            <button class="buy" type="submit">Pay <?php echo $selectWithId['price']?> €</button></a>
+        </div>
+    </form>
 </div>
 
 <!-- Bootstrap core JavaScript -->

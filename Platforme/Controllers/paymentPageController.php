@@ -8,4 +8,5 @@ if (!isset($_SESSION['connected']) || $_SESSION['connected'] === false) header('
 $selectWithId = $select->selectLocalWithId($_GET['id']);
 
 
+
 require_once ('Views/paymentPage.php');
