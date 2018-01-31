@@ -21,4 +21,6 @@
                     <input type="submit" class="button" title="Join us" value="S'enregistrer">
                 </div>
             </form>
+        </div>
+    </div>
 <?php require_once('Views/footer.php'); ?>

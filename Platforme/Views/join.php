@@ -12,7 +12,7 @@
                 <div class="form-item"> <input type="text" name="nameSoc" placeholder="nomSoc"></div>
 
                 <div class="form-item"> <input type="password" name="password" placeholder="mot de passe"></div>
-                <div class="form-item"> <input type="mail" name="mail" placeholder="adresse mail" /></div>
+                <div class="form-item"> <input type="email" name="mail" placeholder="adresse mail" /></div>
                 <div class="form-item"> <input type="number" name="noSiret" placeholder="noSiret"></div>
                 <div class="form-item"> <input type="number" name="phone" placeholder="telephone"></div>
                 <div class="form-item">
@@ -23,4 +23,7 @@
                     <input type="submit" class="button" title="Join us" value="S'enregistrer">
                 </div>
             </form>
-<?php require_once('Views/footer.php'); ?>
+        </div>
+    </div>
+
+<?php require_once('Views/footer.php')?>

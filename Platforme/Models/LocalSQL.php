@@ -44,15 +44,15 @@ class LocalSQL
             ":description"=>$description,
             ":id"=>$id
         ]);
-        var_dump($updateCommande->errorInfo());
     }
 
-    public function selectLocal()
+    public function selectLocal($id)
     {
         global $bdd;
 
 
-        $selectLocal = $bdd->prepare("SELECT * FROM locaux");
+        $selectLocal = $bdd->prepare("SELECT * FROM locaux where id=$id");
+        $selectLocal->bindParam(":id", $id, PDO::PARAM_STR);
         $selectLocal->execute();
         $selectAllLocal = $selectLocal->fetchAll();
 
