@@ -17,12 +17,15 @@
 
     <link rel="stylesheet" href="Views/css/formulaire.css">
     <!-- Custom styles for this template-->
+    <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
+    <link rel="stylesheet" href="Views/css/connection.css">
+    <link href="Views/css/shop-item.css" rel="stylesheet">
     <link href="Views/css/sb-admin.css" rel="stylesheet">
 
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="#"><?=$recupUsers[0]['name'] ?></a>
+    <a class="navbar-brand" href="#"><?= $recupUsers[0]['name'] ?></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
             aria-label="Toggle navigation">

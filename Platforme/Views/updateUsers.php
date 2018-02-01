@@ -1,29 +1,52 @@
 <?php
-require_once ('Views/admin_user.php');
+require_once('Views/admin_user.php');
 ?>
-<br><br><br>
-<form id="contact-form" class="form col-xs-4 col-xs-offset-2" method="POST" role="form">
-    <div class="form-group">
-        <label class="form-label" for="name">Prenom</label>
-        <input type="text" class="form-control" id="name" name="name"
-               value="<?= $recupUsers[0]['name'] ?>">
+
+<header class="masthead">
+    <div class="container h-100">
+        <div class="login-page">
+            <div class="form">
+                <form class="ui form" method="post" enctype="multipart/form-data">
+                    <h4 class="ui dividing header">Modifier Mes Infos</h4>
+                    <div class="field">
+                        <label>Name</label>
+                        <div class="twelve wide field">
+                            <div class="field">
+                                <input type="text" name="name" placeholder="Name" value="<?= $recupUsers[0]['name'] ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Nom De Famille</label>
+                        <div class="fields">
+                            <div class="twelve wide field">
+                                <input type="text" value="<?= $recupUsers[0]['lastName'] ?>"
+                                       placeholder="Nom" name="lastName"></div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Mail</label>
+                        <div class="fields">
+                            <div class="twelve wide field">
+                                <input type="email" value="<?= $recupUsers[0]['mail'] ?>"
+                                       placeholder="Mail" name="mail"></div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Price</label>
+                        <div class="fields">
+                            <div class="twelve wide field">
+                                <input type="password" value="<?= $recupUsers[0]['password'] ?>"
+                                       placeholder="Mot de Passe" name="password"></div>
+                        </div>
+                    </div>
+
+
+                    <button type="submit" class="ui button">Modifier</button>
+
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label class="form-label" for="marque">Nom</label>
-        <input type="text" class="form-control" value="<?= $recupUsers[0]['lastName'] ?>"
-               placeholder="Nom" name="lastName">
-    </div>
-    <div class="form-group">
-        <label class="form-label" for="price">Mail</label>
-        <input type="email" class="form-control" value="<?= $recupUsers[0]['mail'] ?>"
-               placeholder="Mail" name="mail">
-    </div>
-    <div class="form-group">
-        <label class="form-label" for="ref">Mot de Passe</label>
-        <input class="form-control" type="password" value="<?= $recupUsers[0]['password'] ?>"
-               placeholder="Mot de Passe" name="password">
-    </div>
-    <div class="text-center">
-        <input type="submit" value="Modfier" class="btn btn-start-order">
-    </div>
-</form>
+
+</header>

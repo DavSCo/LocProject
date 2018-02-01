@@ -1,34 +1,59 @@
 <?php
-require_once ('Views/adminVendeur.php');
+require_once('Views/adminVendeur.php');
 ?>
-<br><br><br>
-<form id="contact-form" class="form col-xs-4 col-xs-offset-2" method="POST" role="form">
-    <div class="form-group">
-        <label class="form-label" for="name">NameSociety</label>
-        <input type="text" class="form-control" id="name" name="nameSociety"
-               value="<?= $recupVendeur[0]['nameSociety'] ?>">
+<header class="masthead">
+    <div class="container h-100">
+        <div class="login-page">
+            <div class="form">
+                <form class="ui form" method="post" enctype="multipart/form-data">
+                    <h4 class="ui dividing header">Modifier Mes Infos</h4>
+                    <div class="field">
+                        <label>Nom De Société</label>
+                        <div class="twelve wide field">
+                            <div class="field">
+                                <input type="text" id="name" name="nameSociety"
+                                       value="<?= $recupVendeur[0]['nameSociety'] ?>"></div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>N° Telephone</label>
+                        <div class="fields">
+                            <div class="twelve wide field">
+                                <input type="number" value="<?= $recupVendeur[0]['phone'] ?>"
+                                       placeholder="Nom" name="phone">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>N° Siret</label>
+                            <div class="fields">
+                                <div class="twelve wide field">
+                                    <input type="number" value="<?= $recupVendeur[0]['noSiret'] ?>"
+                                           placeholder="noSiret" name="noSiret">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Mail</label>
+                                <div class="fields">
+                                    <div class="twelve wide field">
+                                        <input type="email" value="<?= $recupVendeur[0]['mail'] ?>"
+                                               placeholder="Mail" name="mail"></div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Price</label>
+                                <div class="fields">
+                                    <div class="twelve wide field">
+                                        <input type="password" value="<?= $recupVendeur[0]['password'] ?>"
+                                               placeholder="Mot de Passe" name="password"></div>
+                                </div>
+                            </div>
+
+
+                            <button type="submit" class="ui button">Modifier</button>
+
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label class="form-label" for="marque">Phone</label>
-        <input type="number" class="form-control" value="<?= $recupVendeur[0]['phone'] ?>"
-               placeholder="Nom" name="phone">
-    </div>
-    <div class="form-group">
-        <label class="form-label" for="price">No Siret</label>
-        <input type="number" class="form-control" value="<?= $recupVendeur[0]['noSiret'] ?>"
-               placeholder="Mail" name="noSiret">
-    </div>
-    <div class="form-group">
-        <label class="form-label" for="ref">Mail</label>
-        <input class="form-control" type="email" value="<?= $recupVendeur[0]['mail'] ?>"
-               placeholder="Mot de Passe" name="mail">
-    </div>
-    <div class="form-group">
-        <label class="form-label" for="ref">Mot de Passe</label>
-        <input class="form-control" type="password" value="<?= $recupVendeur[0]['password'] ?>"
-               placeholder="Mot de Passe" name="password">
-    </div>
-    <div class="text-center">
-        <input type="submit" value="Modfier" class="btn btn-start-order">
-    </div>
-</form>
+
+</header>
