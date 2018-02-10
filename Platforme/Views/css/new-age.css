@@ -121,7 +121,7 @@ header.masthead {
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); }
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #d7a987d1, #dc2430ba); }
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
@@ -273,14 +273,17 @@ footer {
     margin-bottom: 0; }
     footer ul li a {
       font-size: 12px;
-      color: rgba(255, 255, 255, 0.3); }
+      color: white}
       footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
         text-decoration: none; }
+
+footer p.copy{ color: white;}
 
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: linear-gradient(#fdcc52, #fdc539);
+background-image: url('../img/new-york-438391_1920.jpg');}
 
 .text-primary {
   color: #fdcc52; }

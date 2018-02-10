@@ -90,38 +90,7 @@ include_once('Layout.php');
         </div>
     </section>
 
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h2>N'attendez pas<br>Louez.</h2>
-                <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Louez !</a>
-            </div>
-        </div>
-        <div class="overlay"></div>
-    </section>
+  
 
-    <section class="contact bg-primary" id="contact">
-        <div class="container">
-            <h2>We
-                <i class="fa fa-heart"></i>
-                new friends!</h2>
-            <ul class="list-inline list-social">
-                <li class="list-inline-item social-twitter">
-                    <a href="#">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item social-facebook">
-                    <a href="#">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item social-google-plus">
-                    <a href="#">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
+   
 <?php require_once('Views/footer.php') ?>
