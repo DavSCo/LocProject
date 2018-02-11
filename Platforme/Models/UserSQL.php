@@ -5,7 +5,7 @@ ini_set('error_reporting', E_ALL);
 class UserSQL
 {
 
-    public function inscriptionCompte($dossier)
+    public function inscriptionCompte()
     {
         global $bdd;
         $password = crypt($_POST['password'], '$2a$07$302838711915bef2db65cc$');
@@ -16,13 +16,12 @@ class UserSQL
         $noSiret = $_POST['noSiret'];
         $phone = $_POST['phone'];
 
-        $inscription = $bdd->prepare("INSERT INTO users (name, lastName, nameSoc, password, mail, noSiret, phone,logo) VALUES(:name, :lastName, :nameSoc, :password, :mail, :noSiret, :phone,:logo)");
+        $inscription = $bdd->prepare("INSERT INTO users (name, lastName, nameSoc, password, mail, noSiret, phone) VALUES(:name, :lastName, :nameSoc, :password, :mail, :noSiret, :phone)");
 
 
         $inscription->bindParam(":name", $name, PDO::PARAM_STR);
         $inscription->bindParam(":lastName", $lastName, PDO::PARAM_STR);
         $inscription->bindParam(":nameSoc", $nameSoc, PDO::PARAM_STR);
-        $inscription->bindParam(':logo', $dossier, PDO::PARAM_STR);
         $inscription->bindParam(":mail", $mail, PDO::PARAM_STR);
         $inscription->bindParam(":noSiret", $noSiret, PDO::PARAM_STR);
         $inscription->bindParam(":phone", $phone, PDO::PARAM_STR);

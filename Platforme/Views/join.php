@@ -15,9 +15,6 @@
                 <div class="form-item"> <input type="email" name="mail" placeholder="adresse mail" /></div>
                 <div class="form-item"> <input type="number" name="noSiret" placeholder="noSiret"></div>
                 <div class="form-item"> <input type="number" name="phone" placeholder="telephone"></div>
-                <div class="form-item">
-                    <input type="file" name="logo" id="logo">
-                </div>
                 <div class="button-panel">
 
                     <input type="submit" class="button" title="Join us" value="S'enregistrer">
