@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  mer. 31 jan. 2018 à 17:52
+-- Généré le :  jeu. 15 fév. 2018 à 10:25
 -- Version du serveur :  5.6.35
 -- Version de PHP :  7.1.8
 
@@ -103,22 +103,21 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `mail` varchar(255) NOT NULL,
   `noSiret` varchar(255) NOT NULL,
-  `phone` int(255) NOT NULL,
-  `logo` varchar(255) NOT NULL
+  `phone` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `lastName`, `nameSoc`, `password`, `mail`, `noSiret`, `phone`, `logo`) VALUES
-(1, 'Sam', 'Mre', 'SmdWeb', '$2a$07$302838711915bef2db65cOK4aHz9cmNjYc5fQX3lg/5VlygPKqsX.', 'sam@sam.fr', '1', 142524809, ''),
-(2, 'Madeleine ', 'Mrejen', 'Madeleine Mrejen', '$2a$07$302838711915bef2db65cOEiSvbEe2G9KtFnD.jsuQg7YxCmPXSr.', 'mrejen.samuel@hotmail.fr', '1', 142524809, 'Views/img/upload/matelas.jpg'),
-(4, 'Samuel ', 'Mrejen', 'SmdWeb', '$2a$07$302838711915bef2db65cOK4aHz9cmNjYc5fQX3lg/5VlygPKqsX.', 'sam@sam.fr', '1', 2, 'Views/img/upload/border-imagenew.png'),
-(5, 'ilias', 'saouidi', 'ili', '$2a$07$302838711915bef2db65cOaaOlSiX.MGS2BdXHc/8Fyzoo4BEJ1KG', 'ilias@ilias.fr', '1', 142524809, 'Views/img/upload/sunglasses-2562647_1920.jpg'),
-(7, 'cherif', 'cherif', 'cherif', '$2a$07$302838711915bef2db65cO.wJ4r3GKn5Du9HU1PVcyXe5psOs6H12', 'cherif@cherif', '1', 1, 'Views/img/upload/glasses-1145125_1280.png'),
-(8, 'test', 'test', 'test', '$2a$07$302838711915bef2db65cOVl78FpEwYHlFGRuCaamrZGzTy0KCUK.', 'test@test.fr', '1', 142524809, 'Views/img/upload/sunglasses-2562647_1920.jpg'),
-(15, 'test2', 'tset2', 'test2', '$2a$07$302838711915bef2db65cOVl78FpEwYHlFGRuCaamrZGzTy0KCUK.', 'test2@test2.fr', '1', 1, 'Views/img/upload/glasses-415256_1920.jpg');
+INSERT INTO `users` (`id`, `name`, `lastName`, `nameSoc`, `password`, `mail`, `noSiret`, `phone`) VALUES
+(1, 'Sam', 'Mrejen', 'SmdWeb', '$2a$07$302838711915bef2db65cORSvniT32hlv4j0VED.H09s981PYUloS', 'sam@sam.fr', '1', 142524809),
+(2, 'Madeleine ', 'Mrejen', 'Madeleine Mrejen', '$2a$07$302838711915bef2db65cOEiSvbEe2G9KtFnD.jsuQg7YxCmPXSr.', 'mrejen.samuel@hotmail.fr', '1', 142524809),
+(4, 'Samuel ', 'Mrejen', 'SmdWeb', '$2a$07$302838711915bef2db65cOK4aHz9cmNjYc5fQX3lg/5VlygPKqsX.', 'sam@sam.fr', '1', 2),
+(5, 'ilias', 'saouidi', 'ili', '$2a$07$302838711915bef2db65cOaaOlSiX.MGS2BdXHc/8Fyzoo4BEJ1KG', 'ilias@ilias.fr', '1', 142524809),
+(7, 'cherif', 'cherif', 'cherif', '$2a$07$302838711915bef2db65cO.wJ4r3GKn5Du9HU1PVcyXe5psOs6H12', 'cherif@cherif', '1', 1),
+(8, 'test', 'test', 'test', '$2a$07$302838711915bef2db65cOVl78FpEwYHlFGRuCaamrZGzTy0KCUK.', 'test@test.fr', '1', 142524809),
+(15, 'test2', 'tset2', 'test2', '$2a$07$302838711915bef2db65cOVl78FpEwYHlFGRuCaamrZGzTy0KCUK.', 'test2@test2.fr', '1', 1);
 
 -- --------------------------------------------------------
 
@@ -142,7 +141,7 @@ CREATE TABLE `vendeur` (
 
 INSERT INTO `vendeur` (`id`, `nameSociety`, `phone`, `noSiret`, `mail`, `password`, `logo`) VALUES
 (1, 'smdWEB', 123456, '1234567', 'dav@dav.fr', 'azerty', 'img/class'),
-(3, 'richesse', 142524809, '1234', 'kinere@wanadoo.fr', '$2a$07$302838711915bef2db65cO.LrQq8IalxIFqA5SKh27SOAyqD25zUm', 'Views/img/upload/matelas_bultex_nano_b_b_bambin_002.jpg'),
+(3, 'kinere', 1234, '142524809', 'kinere@wanadoo.fr', '$2a$07$302838711915bef2db65cOV2dNp0uCRvzOa/6juOLwGBG9XOF0ZXu', 'Views/img/upload/matelas_bultex_nano_b_b_bambin_002.jpg'),
 (6, 'samSociety', 2, '1', 'sam@sam.fr', '$2a$07$302838711915bef2db65cOK4aHz9cmNjYc5fQX3lg/5VlygPKqsX.', 'Views/img/upload/'),
 (7, 'remyremy', 142524809, '1', 'remy@remy.fr', '$2a$07$302838711915bef2db65cO.LrQq8IalxIFqA5SKh27SOAyqD25zUm', 'Views/img/upload/Round-Vollrandbrille-Old-Reading-Glasses-Glasses-1097864.jpg'),
 (8, 'remyremy', 142524809, '1', 'remy@remy.fr', '$2a$07$302838711915bef2db65cO.LrQq8IalxIFqA5SKh27SOAyqD25zUm', 'Views/img/upload/Round-Vollrandbrille-Old-Reading-Glasses-Glasses-1097864.jpg'),
