@@ -1,6 +1,19 @@
 <?php
 include_once('Layout.php');
 ?>
+    <section class="download bg-primary text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">Decouvrez le nouveau monde de la location courte durée</h2>
+                    <p>FreeLancer, Start Up, Auto-entrepreneur , inscrivez vous vite ! Et louez ! </p>
+                    <div class="badges">
+                        <a href="index.php?p=join" class="btn btn-outline btn-xl js-scroll-trigger">Inscription</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <header class="masthead">
         <div class="container h-100">
@@ -41,19 +54,7 @@ include_once('Layout.php');
         </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <h2 class="section-heading">Decouvrez le nouveau monde de la location courte durée</h2>
-                    <p>FreeLancer, Start Up, Auto-entrepreneur , inscrivez vous vite ! Et louez ! </p>
-                    <div class="badges">
-                        <a href="index.php?p=join" class="btn btn-outline btn-xl js-scroll-trigger">Inscription</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="features" id="features">
         <div class="container">

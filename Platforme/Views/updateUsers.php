@@ -33,7 +33,7 @@ require_once('Views/admin_user.php');
                         </div>
                     </div>
                     <div class="field">
-                        <label>Price</label>
+                        <label>password</label>
                         <div class="fields">
                             <div class="twelve wide field">
                                 <input type="password" value="<?= $recupUsers[0]['password'] ?>"

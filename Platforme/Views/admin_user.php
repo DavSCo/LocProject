@@ -13,14 +13,11 @@
     <!-- Custom fonts for this template-->
     <link href="Views/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Page level plugin CSS-->
-    <link href="Views/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
     <link rel="stylesheet" href="Views/css/formulaire.css">
     <!-- Custom styles for this template-->
     <link rel="stylesheet" type="text/css" href="Views/css/semantic.css">
-    <link rel="stylesheet" href="Views/css/connection.css">
-    <link href="Views/css/shop-item.css" rel="stylesheet">
-    <link href="Views/css/sb-admin.css" rel="stylesheet">
+
 
 </head>
 
